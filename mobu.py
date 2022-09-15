@@ -9,7 +9,7 @@ import asyncio
 import datetime
 import random
 
-TOKEN = 'OTg3OTgzNTA0NTg5NTkwNTY4.G7-Kca.sAXd-Rq11h_nIvP0rP2mk3HL6jN2a_DcaNX1w8'
+TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 CHANNEL_ID = 986260124983242762
 client = discord.Client()
 time = datetime.datetime.now()
