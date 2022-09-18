@@ -2,15 +2,6 @@
 # mob.py
 =====================
 
-.. image:: https://static.pepy.tech/personalized-badge/discord-ext-ui?period=month&units=international_system&left_color=black&right_color=orange&left_text=Downloads
- 　:target: https://pepy.tech/project/discord-ext-ui
-.. image:: https://img.shields.io/pypi/v/discord-ext-ui.svg
-   :target: https://pypi.python.org/pypi/discord-ext-ui
-   :alt: PyPI version info
-.. image:: https://img.shields.io/pypi/pyversions/discord-ext-ui.svg
-   :target: https://pypi.python.org/pypi/discord-ext-ui
-   :alt: PyPI supported Python versions
-
 This package is an extension of discord.ui.
 
 You can use pycord or discord.py.
