@@ -725,7 +725,7 @@ async def on_message(message):
         await message.channel.send(send_message,file=discord.File(filepath))
     if message.content.startswith('ランダム'):
         send_message = "ランダムで選ばれたのはこの娘！"
-        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,612))
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
     if message.content.startswith('10連'):
         send_message = "確定とかないからね"
@@ -816,6 +816,11 @@ async def on_message(message):
         await message.channel.send(send_message,file=discord.File(filepath))
     if message.content.startswith('俺の愛バが！'):
         send_message = "あなたの担当ウマ娘は{}着でした。".format(random.randint(1,18))
+        await message.channel.send(send_message)
+    if message.content.startswith('育成完了'):
+        lank = ['G','G+','F','F+','E','E+','D','D+','C','C+','B','B+','A','A+','S','S+','SS','SS+','UG','UG1','UG2','UG3','UG4','UG5','UG6','UG7','UG8','UG9']
+        w = [0.2,1,1.1,1.1,1.2,1.2,1.2,1.2,1.2,1.2,1.1,1.1,1,1,1,1,0.9,0.9,0.8,0.8,0.7,0.7,0.6,0.6,0.5,0.5,0.4,0.4,0.3,0.3]
+        send_message = "あなたの担当ウマ娘は{}ランクでした。".format(random.choices(lank,k=1,weights=w))
         await message.channel.send(send_message)
 
 
