@@ -1,5 +1,5 @@
 =====================
-discord-ext-ui
+
 =====================
 
 .. image:: https://static.pepy.tech/personalized-badge/discord-ext-ui?period=month&units=international_system&left_color=black&right_color=orange&left_text=Downloads
