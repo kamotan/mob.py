@@ -715,7 +715,7 @@ async def on_message(message):
         send_message = "「ヤンデレブリーズドローン.jpg」"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ヤンデレブリーズドローン.jpg'
         await message.channel.send(send_message,file=discord.File(filepath))
-    if message.content.startswith('ｸﾏｰ'):
+    if message.content.startswith('ｸﾏ'):
         send_message = "クマーーー！！！"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\kuma.jpg'
         await message.channel.send(send_message,file=discord.File(filepath))
