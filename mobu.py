@@ -819,7 +819,7 @@ async def on_message(message):
         await message.channel.send(send_message)
     if message.content.startswith('育成完了'):
         lank = ['G','G+','F','F+','E','E+','D','D+','C','C+','B','B+','A','A+','S','S+','SS','SS+','UG','UG1','UG2','UG3','UG4','UG5','UG6','UG7','UG8','UG9']
-        w = [0.2,1,1.1,1.1,1.2,1.2,1.2,1.2,1.2,1.2,1.1,1.1,1,1,1,1,0.9,0.9,0.8,0.8,0.7,0.7,0.6,0.6,0.5,0.5,0.4,0.4,0.3,0.3]
+        w = [2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
         send_message = "あなたの担当ウマ娘は{}ランクでした。".format(random.choices(lank,k=1,weights=w))
         await message.channel.send(send_message)
 

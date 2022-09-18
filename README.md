@@ -1,104 +1,24 @@
-=====================
 # mob.py
-=====================
 
-This package is an extension of discord.ui.
+モブウマ娘同好会サーバーで動いているモブウマ娘博士BOTのソースコードです。
 
-You can use pycord or discord.py.
+汚い部分があるかもしれませんがご了承ください。
 
-I hate pycord's slash command system.
+# このBOTでできること
 
-why use discord-ext-ui?
-=============================
+__書くと長くなるのでコードリーディングしてください（人任せ）__
 
-discord-ext-ui comes with a declarative View system and Combine system similar to SwiftUI.
+1. 注意点
 
-This makes it easier to implement architectures such as MVVM and to edit buttons after they have been submitted.
+BOTがオンライン状態の際は基本的にご利用いただけます。（後述するケースを除く）
 
-Advantages of adopting discord-ext-ui
--------------------------------------
+サーバーの都合上、定期的にメンテナンス作業を行います。
+その際管理人室チャンネル内で告知した後、BOTはオフラインになります。
 
-1. no more need to explicitly update the message
+回線の都合上BOTからの返答に数秒ほどかかる場合があります。
 
-As an example, let's say you want to implement a function that allows you to increase or decrease the count using a button.
+BOTがオンライン状態になっていても返答が返ってこない場合は、
+BOTサーバー側がオフラインになっている可能性があります。
+もしメンテナンス告知なく、オフライン状態になっている場合はご連絡ください。
 
-If you want to implement it without using MVVM, you need to explicitly write a process to update the message to reflect the change in the internal state when the button is pressed.
-
-On the other hand, discord-ext-ui provides wrappers for variables such as `state` and `published`. By using this wrapper, it is not necessary to explicitly write message updates according to changes in member variables.
-
-Also, since the function to be executed when the button is pressed can be set declaratively, it is possible to perform complex processing such as for loops. 2.
-
-2. easy to write when a button is used
-
-With discord-ext-ui, it is possible to change buttons when updating automatically, so it is easy to implement disabling/enabling according to instance variable values and changing buttons according to internal states such as pagination.
-
-Example
-=======
-
-See `./examples/`.
-
-.. code-block::python
-    from discord.ext.ui import Button, View, ObservableObject, published, Message, ViewTracker, MessageProvider
-    from discord.ext.ui.combine import PassThroughSubject
-    import discord
-    import os
-
-
-    client = discord.Client()
-
-
-    class SampleViewModel(ObservableObject):
-        num = published('num')
-
-        def __init__(self):
-            super().__init__()
-            self.num = 0
-            self.sub = PassThroughSubject().sink(self.change_count)
-
-        def change_count(self, diff: int):
-            self.num += diff
-
-
-    class SampleView(View):
-        def __init__(self):
-            super().__init__()
-            self.viewModel = SampleViewModel()
-
-        async def delete(self, interaction: discord.Interaction):
-            await interaction.message.delete()
-            self.stop()
-
-        async def body(self):
-            return Message()\
-                .content(f"test! {self.viewModel.num}")\
-                .items([
-                [
-                    Button("+1")
-                        .on_click(lambda _: self.viewModel.sub.send(1))
-                        .style(discord.ButtonStyle.blurple),
-
-                    Button("-1")
-                        .on_click(lambda _: self.viewModel.sub.send(-1))
-                        .style(discord.ButtonStyle.blurple)
-                ],
-                [
-                    Button("終わる")
-                        .on_click(self.delete)
-                        .style(discord.ButtonStyle.danger)
-                ]
-            ])
-
-
-    @client.event
-    async def on_message(message: discord.Message):
-        if message.content != "!test":
-            return
-
-        view = SampleView()
-        tracker = ViewTracker(view, timeout=None)
-        await tracker.track(MessageProvider(message.channel))
-
-LICENSE
-=======
-
-MIT
+もし間違いや改善点、追加してほしい機能などがありましたら、ご連絡ください。
