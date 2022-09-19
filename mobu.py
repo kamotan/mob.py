@@ -8,6 +8,7 @@ import discord
 import asyncio
 import datetime
 import random
+from discord.ext import commands
 
 TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 CHANNEL_ID = 986260124983242762
@@ -17,6 +18,27 @@ time = datetime.datetime.now()
 async def on_ready():
     print('Bot Launched')
     print(time)
+
+@client.event
+async def on_command_error(ctx, error):
+    if isinstance(error, discord.ext.commands.errors.CommandNotFound):
+        embed = discord.Embed(title=":x: 不明 -CommandNotFound", description=f"不明なコマンドもしくは現在使用不可能なコマンドです。", timestamp=ctx.message.created_at, color=discord.Colour.yellow())
+        embed.set_footer(text="お困りの場合は、サーバー管理者をメンションしてください。")
+        await ctx.send(embed=embed)
+    elif isinstance(error, discord.ext.commands.errors.MemberNotFound):
+        embed = discord.Embed(title=":x: 失敗 -MemberNotFound", description=f"指定されたメンバーが見つかりません。", timestamp=ctx.message.created_at, color=discord.Colour.red())
+        embed.set_footer(text="お困りの場合は、サーバー管理者をメンションしてください。")
+        await ctx.send(embed=embed)
+    elif isinstance(error, discord.ext.commands.errors.BadArgument):
+        embed = discord.Embed(title=":x: 失敗 -BadArgument", description=f"指定された引数がエラーを起こしているため実行出来ません。", timestamp=ctx.message.created_at, color=discord.Colour.red())
+        embed.set_footer(text="お困りの場合は、サーバー管理者をメンションしてください。")
+        await ctx.send(embed=embed) 
+    elif isinstance(error, discord.ext.commands.errors.MissingRequiredArgument):
+        embed = discord.Embed(title=":x: 失敗 -BadArgument", description=f"指定された引数が足りないため実行出来ません。", timestamp=ctx.message.created_at, color=discord.Colour.red())
+        embed.set_footer(text="お困りの場合は、サーバー管理者をメンションしてください。")
+        await ctx.send(embed=embed) 
+    else:
+        raise error
 @client.event
 async def on_message(message):
     
