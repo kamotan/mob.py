@@ -517,6 +517,18 @@ async def on_message(message):
         send_message = "佐藤さん"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\シュガーニンフェ.jpg'
         await message.channel.send(send_message,file=discord.File(filepath))
+    if message.content.startswith('いつ子'):
+        send_message = "いつ子"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\イッツコーリング.jpg'
+        await message.channel.send(send_message,file=discord.File(filepath))
+    if message.content.startswith('イツ子'):
+        send_message = "イツ子"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\イッツコーリング.jpg'
+        await message.channel.send(send_message,file=discord.File(filepath))
+    if message.content.startswith('ブリコン'):
+        send_message = "ブリコン"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ブリッジコンプ.jpg'
+        await message.channel.send(send_message,file=discord.File(filepath))
     if message.content.startswith('リサ'):
         send_message = "リサさん"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\リードサスペンス.jpg'
@@ -733,6 +745,14 @@ async def on_message(message):
         send_message = "「ハープアルファ.jpg」"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ハープアルファ.jpg'
         await message.channel.send(send_message,file=discord.File(filepath))
+    if message.content.startswith('ポイズナス'):
+        send_message = "「ポイズナス.jpg」"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ポイズナス.jpg'
+        await message.channel.send(send_message,file=discord.File(filepath))
+    if message.content.startswith('ハートリーレター'):
+        send_message = "「ハートリーレター.jpg」"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ハートリーレター.jpg'
+        await message.channel.send(send_message,file=discord.File(filepath))
     if message.content.startswith('ヤンデレブリーズドローン'):
         send_message = "「ヤンデレブリーズドローン.jpg」"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ヤンデレブリーズドローン.jpg'
@@ -844,6 +864,10 @@ async def on_message(message):
         w = [2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
         send_message = "あなたの担当ウマ娘は{}ランクでした。".format(random.choices(lank,k=1,weights=w))
         await message.channel.send(send_message)
+    if message.content.startswith('エラー発生'):
+        send_message = ""
+        filepath = 'D:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ハープアルファ.jpg'
+        await message.channel.send(send_message,file=discord.File(filepath))
 
 
     
