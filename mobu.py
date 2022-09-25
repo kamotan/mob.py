@@ -753,6 +753,10 @@ async def on_message(message):
         send_message = "「ハートリーレター.jpg」"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ハートリーレター.jpg'
         await message.channel.send(send_message,file=discord.File(filepath))
+    if message.content.startswith('ブリーズドローン'):
+        send_message = "「ブリーズドローン.jpg」"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ブリーズドローン.jpg'
+        await message.channel.send(send_message,file=discord.File(filepath))
     if message.content.startswith('ヤンデレブリーズドローン'):
         send_message = "「ヤンデレブリーズドローン.jpg」"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ヤンデレブリーズドローン.jpg'
@@ -866,7 +870,7 @@ async def on_message(message):
         await message.channel.send(send_message)
     if message.content.startswith('エラー発生'):
         send_message = ""
-        filepath = 'D:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ハープアルファ.jpg'
+        filepath = 'D:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\テスト.jpg'
         await message.channel.send(send_message,file=discord.File(filepath))
 
 
