@@ -753,14 +753,6 @@ async def on_message(message):
         send_message = "「ハートリーレター.jpg」"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ハートリーレター.jpg'
         await message.channel.send(send_message,file=discord.File(filepath))
-    if message.content.startswith('ブリーズドローン'):
-        send_message = "「ブリーズドローン.jpg」"
-        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ブリーズドローン.jpg'
-        await message.channel.send(send_message,file=discord.File(filepath))
-    if message.content.startswith('ヤンデレブリーズドローン'):
-        send_message = "「ヤンデレブリーズドローン.jpg」"
-        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ヤンデレブリーズドローン.jpg'
-        await message.channel.send(send_message,file=discord.File(filepath))
     if message.content.startswith('ｸﾏ'):
         send_message = "クマーーー！！！"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\kuma.jpg'
@@ -816,21 +808,6 @@ async def on_message(message):
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
-        ]
-        await message.channel.send(send_message,files=myfiles)
-    if message.content.startswith('逃がさないブリーズドローン'):
-        send_message = "「逃がさないからね」"
-        myfiles = [
-            discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\422.jpg'),
-            discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\422.jpg'),
-            discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\422.jpg'),
-            discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\422.jpg'),
-            discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\422.jpg'),
-            discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\422.jpg'),
-            discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\422.jpg'),
-            discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\422.jpg'),
-            discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\422.jpg'),
-            discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\422.jpg'),
         ]
         await message.channel.send(send_message,files=myfiles)
     if message.content.startswith('かもたん特効'):
