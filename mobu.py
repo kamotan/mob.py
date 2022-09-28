@@ -72,6 +72,9 @@ async def on_message(message):
     if message.content.startswith('まだ博士死んでる'):
         send_message = "蘇ったぞおおおおおおおおおおおおお"
         await message.channel.send(send_message)
+    if message.content.startswith('モブウマ娘名鑑'):
+        send_message = "モブウマ娘名鑑\nhttps://twitter.com/mobumamusumeika?s=20&t=osfVJsUJNPCZp37Bnmsg6Q"
+        await message.channel.send(send_message)
     if message.content.startswith('博士の家を教えて'):
         send_message = "私の家は\nCPU\n・intel(R)Core(TM)i3-2120 CPU 3.3GHz\nメモリ\n・DDR3 4GB\nHDD\n・500GB\nGPU\n・なし\n最近外装(ケース)を変えた。\nもっと仕事がしやすくて立派な家に住みたいです。"
         await message.channel.send(send_message)
@@ -509,6 +512,10 @@ async def on_message(message):
         send_message = "スカイ家"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\list\\スカイ家.txt'
         await message.channel.send(send_message,file=discord.File(filepath))
+    if message.content.startswith('全モブウマ娘'):
+        send_message = "現在613人。"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\list\\全モブウマ娘.txt'
+        await message.channel.send(send_message,file=discord.File(filepath))
     if message.content.startswith('秋山'):
         send_message = "秋山さん"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\オータムマウンテン.jpg'
@@ -536,6 +543,10 @@ async def on_message(message):
     if message.content.startswith('LISA'):
         send_message = "LISAさん"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\lisa.jpg'
+        await message.channel.send(send_message,file=discord.File(filepath))
+    if message.content.startswith('新曲リリース'):
+        send_message = "コブラじゃねーか！"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\モブガチャ.png'
         await message.channel.send(send_message,file=discord.File(filepath))
     if message.content.startswith('おっぱい'):
         send_message = "\OPPAI/"
@@ -840,6 +851,10 @@ async def on_message(message):
     if message.content.startswith('俺の愛バが！'):
         send_message = "あなたの担当ウマ娘は{}着でした。".format(random.randint(1,18))
         await message.channel.send(send_message)
+    if message.content.startswith('かもたん'):
+        send_message = "本物の鴨が当たり"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\kamo{}.jpg'.format(random.randint(1,20))
+        await message.channel.send(send_message,file=discord.File(filepath))
     if message.content.startswith('育成完了'):
         lank = ['G','G+','F','F+','E','E+','D','D+','C','C+','B','B+','A','A+','S','S+','SS','SS+','UG','UG1','UG2','UG3','UG4','UG5','UG6','UG7','UG8','UG9']
         w = [2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
