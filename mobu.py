@@ -73,7 +73,7 @@ async def on_message(message):
         send_message = "蘇ったぞおおおおおおおおおおおおお"
         await message.channel.send(send_message)
     if message.content.startswith('モブウマ娘名鑑'):
-        send_message = "モブウマ娘名鑑\nhttps://twitter.com/mobumamusumeika?s=20&t=osfVJsUJNPCZp37Bnmsg6Q"
+        send_message = "モブウマ娘名鑑\nhttps://twitter.com/mobumamusumeika?s=20&t=osfVJsUJNPCZp37Bnmsg6Q\nhttps://mobumamusume.net/"
         await message.channel.send(send_message)
     if message.content.startswith('博士の家を教えて'):
         send_message = "私の家は\nCPU\n・intel(R)Core(TM)i3-2120 CPU 3.3GHz\nメモリ\n・DDR3 4GB\nHDD\n・500GB\nGPU\n・なし\n最近外装(ケース)を変えた。\nもっと仕事がしやすくて立派な家に住みたいです。"
