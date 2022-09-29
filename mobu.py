@@ -76,7 +76,7 @@ async def on_message(message):
         send_message = "モブウマ娘名鑑\nhttps://twitter.com/mobumamusumeika?s=20&t=osfVJsUJNPCZp37Bnmsg6Q\nhttps://mobumamusume.net/"
         await message.channel.send(send_message)
     if message.content.startswith('博士の家を教えて'):
-        send_message = "私の家は\nCPU\n・intel(R)Core(TM)i3-2120 CPU 3.3GHz\nメモリ\n・DDR3 4GB\nHDD\n・500GB\nGPU\n・なし\n最近外装(ケース)を変えた。\nもっと仕事がしやすくて立派な家に住みたいです。"
+        send_message = "私の家は\nCPU\n・intel(R)Core(TM)i3-2120 CPU 3.3GHz\nメモリ\n・DDR3 8GB\nHDD\n・500GB\nGPU\n・なし\n最近外装(ケース)を変えた。\nもっと仕事がしやすくて立派な家に住みたいです。"
         await message.channel.send(send_message)
     if message.content.startswith('Who is That Mob Umamusume?'):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
@@ -851,7 +851,7 @@ async def on_message(message):
     if message.content.startswith('俺の愛バが！'):
         send_message = "あなたの担当ウマ娘は{}着でした。".format(random.randint(1,18))
         await message.channel.send(send_message)
-    if message.content.startswith('かもたん'):
+    if message.content.startswith('鴨ランダム'):
         send_message = "本物の鴨が当たり"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\kamo{}.jpg'.format(random.randint(1,20))
         await message.channel.send(send_message,file=discord.File(filepath))
