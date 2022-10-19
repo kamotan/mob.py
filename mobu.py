@@ -41,9 +41,11 @@ async def on_command_error(ctx, error):
         raise error
 @client.event
 async def on_message(message):
-    
+#     博士に対してのメンションメッセージがある場合リアクション
+#     エキサイトスタッフの絵文字に対してリアクション
 
     if message.author.bot:
+#         １０連結果にエキサイトスタッフ画像があればリアクション
         return
     if message.channel.id != CHANNEL_ID:
         return
@@ -882,4 +884,7 @@ client.run(TOKEN)
 # 俺のユーザーid = 656384100890050570
 # message.channel.id = 986260124983242762
 # python mobu.py　または py mobu.py で動く  
-# py -m pip install git+https://github.com/Pycord-Development/pycord
+# https://qiita.com/manuo/items/31c38185fb3c56a7ee10
+# https://qiita.com/manuo/items/30663f4f1d4029bbee19
+# https://qiita.com/Arusu_Dev/items/683aef9da468725e778a
+# https://lets-emoji.com/emojilist/emojilist-1/
