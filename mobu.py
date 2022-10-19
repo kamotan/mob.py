@@ -20,26 +20,6 @@ async def on_ready():
     print(time)
 
 @client.event
-async def on_command_error(ctx, error):
-    if isinstance(error, discord.ext.commands.errors.CommandNotFound):
-        embed = discord.Embed(title=":x: 不明 -CommandNotFound", description=f"不明なコマンドもしくは現在使用不可能なコマンドです。", timestamp=ctx.message.created_at, color=discord.Colour.yellow())
-        embed.set_footer(text="お困りの場合は、サーバー管理者をメンションしてください。")
-        await ctx.send(embed=embed)
-    elif isinstance(error, discord.ext.commands.errors.MemberNotFound):
-        embed = discord.Embed(title=":x: 失敗 -MemberNotFound", description=f"指定されたメンバーが見つかりません。", timestamp=ctx.message.created_at, color=discord.Colour.red())
-        embed.set_footer(text="お困りの場合は、サーバー管理者をメンションしてください。")
-        await ctx.send(embed=embed)
-    elif isinstance(error, discord.ext.commands.errors.BadArgument):
-        embed = discord.Embed(title=":x: 失敗 -BadArgument", description=f"指定された引数がエラーを起こしているため実行出来ません。", timestamp=ctx.message.created_at, color=discord.Colour.red())
-        embed.set_footer(text="お困りの場合は、サーバー管理者をメンションしてください。")
-        await ctx.send(embed=embed) 
-    elif isinstance(error, discord.ext.commands.errors.MissingRequiredArgument):
-        embed = discord.Embed(title=":x: 失敗 -BadArgument", description=f"指定された引数が足りないため実行出来ません。", timestamp=ctx.message.created_at, color=discord.Colour.red())
-        embed.set_footer(text="お困りの場合は、サーバー管理者をメンションしてください。")
-        await ctx.send(embed=embed) 
-    else:
-        raise error
-@client.event
 async def on_message(message):
 #     博士に対してのメンションメッセージがある場合リアクション
 #     エキサイトスタッフの絵文字に対してリアクション
@@ -888,3 +868,4 @@ client.run(TOKEN)
 # https://qiita.com/manuo/items/30663f4f1d4029bbee19
 # https://qiita.com/Arusu_Dev/items/683aef9da468725e778a
 # https://lets-emoji.com/emojilist/emojilist-1/
+# https://hashikake.com/library#toc5
