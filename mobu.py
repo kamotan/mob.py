@@ -14,6 +14,13 @@ TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 CHANNEL_ID = 986260124983242762
 client = discord.Client()
 time = datetime.datetime.now()
+excite = "<:ExciteStuff:962698922462162974>"
+good = ":thumbsup:"
+eyes = ":eyes:"
+heart = "\N{SMILING FACE WITH HEARTS}"
+
+   
+    
 @client.event
 async def on_ready():
     print('Bot Launched')
@@ -21,12 +28,31 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-#     博士に対してのメンションメッセージがある場合リアクション
-#     エキサイトスタッフの絵文字に対してリアクション
+    async def reply(message):
+        reply = f'{message.author.mention} 呼んだ？' 
+        await message.channel.send(reply) 
+    if client.user in message.mentions: 
+        await reply(message) 
+    if message.content.startswith('<@987983504589590568>'):
+        await message.add_reaction(good)
+    if message.content.startswith('エキサイト'):
+        await message.add_reaction(excite)
+    if message.content.startswith(excite):
+        await message.add_reaction(good)
+    
 
     if message.author.bot:
-#         １０連結果にエキサイトスタッフ画像があればリアクション
+        words = ["C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg"]
+        words1 = ["C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\エキサイトスタッフ.jpg"]
+        for word in words:
+            if word in message.content:
+                await message.add_reaction(excite,good,eyes)
+        for word1 in words1:
+            if word1 in message.content:
+                await message.add_reaction(excite,good,eyes)
+    else
         return
+        
     if message.channel.id != CHANNEL_ID:
         return
     
@@ -869,3 +895,4 @@ client.run(TOKEN)
 # https://qiita.com/Arusu_Dev/items/683aef9da468725e778a
 # https://lets-emoji.com/emojilist/emojilist-1/
 # https://hashikake.com/library#toc5
+# https://aismiley.co.jp/ai_news/deep-learning-forefront/
