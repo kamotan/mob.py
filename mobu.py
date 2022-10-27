@@ -14,7 +14,7 @@ TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 CHANNEL_ID = 986260124983242762
 client = discord.Client()
 time = datetime.datetime.now()
-excite = "<:ExciteStuff:962698922462162974>"
+exciteFace = "<:ExciteStuff:962698922462162974>"
 good = ":thumbsup:"
 eyes = ":eyes:"
 heart = "\N{SMILING FACE WITH HEARTS}"
@@ -35,24 +35,23 @@ async def on_message(message):
         await reply(message) 
     if message.content.startswith('<@987983504589590568>'):
         await message.add_reaction(good)
-    if message.content.startswith('エキサイト'):
-        await message.add_reaction(excite)
-    if message.content.startswith('ｴｷｻｲﾄ'):
-        await message.add_reaction(excite)
-    if message.content.startswith(excite):
-        await message.add_reaction(good)
+    if ('エキサイト') in message.content:
+            await message.add_reaction(exciteFace)
+    if ('ｴｷｻｲﾄ') in message.content:
+            await message.add_reaction(exciteFace)
+    if (exciteFace) in message.content:
+            await message.add_reaction(good)
     
 
     if message.author.bot:
         words = ["C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg"]
         words1 = ["C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\エキサイトスタッフ.jpg"]
-        for word in words:
-            if word in message.content:
-                await message.add_reaction(excite,good,eyes)
-        for word1 in words1:
-            if word1 in message.content:
-                await message.add_reaction(excite,good,eyes)
-    else
+        if (words) in message.content:
+            await message.add_reaction(exciteFace,good,eyes)
+        if (words1) in message.content:
+            await message.add_reaction(exciteFace,good,eyes)
+
+    else:
         return
         
     if message.channel.id != CHANNEL_ID:
@@ -806,11 +805,19 @@ async def on_message(message):
         send_message = " ^^) _<@!901797483414425620>"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\イッツコーリング.jpg'
         await message.channel.send(send_message,file=discord.File(filepath))
-    if message.content.startswith('ランダム'):
+    if ('ランダム') in message.content:
         send_message = "ランダムで選ばれたのはこの娘！"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
-    if message.content.startswith('10連'):
+    if ('random') in message.content:
+        send_message = "ランダムで選ばれたのはこの娘！"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
+        await message.channel.send(send_message,file=discord.File(filepath))
+    if ('らんだむ') in message.content:
+        send_message = "ランダムで選ばれたのはこの娘！"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
+        await message.channel.send(send_message,file=discord.File(filepath))
+    if ('１０連') in message.content:
         send_message = "確定とかないからね"
         myfiles = [
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
@@ -825,7 +832,7 @@ async def on_message(message):
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
         ]
         await message.channel.send(send_message,files=myfiles)
-    if message.content.startswith('１０連'):
+    if ('10連') in message.content:
         send_message = "確定とかないからね"
         myfiles = [
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
@@ -840,7 +847,7 @@ async def on_message(message):
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
         ]
         await message.channel.send(send_message,files=myfiles)
-    if message.content.startswith('十連'):
+    if ('十連') in message.content:
         send_message = "確定とかないからね"
         myfiles = [
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
@@ -870,14 +877,6 @@ async def on_message(message):
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'),
         ]
         await message.channel.send(send_message,files=myfiles)
-    if message.content.startswith('らんだむ'):
-        send_message = "ランダムで選ばれたのはこの娘！"
-        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        await message.channel.send(send_message,file=discord.File(filepath))
-    if message.content.startswith('random'):
-        send_message = "ランダムで選ばれたのはこの娘！"
-        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        await message.channel.send(send_message,file=discord.File(filepath))
     if message.content.startswith('やってみせろよ！ランダム！'):
         send_message = "「なんとでもなるはずだ！」\n「ランダムだとっ！？」\n₍₍(ง🎃)ว⁾⁾\n鳴らない言葉をもう一度描いて\n₍₍ᕦ(🎃)ᕤ⁾⁾\n₍₍ʅ(🎃)ว⁾⁾\n₍₍🙏⁾⁾\n₍₍🎃⁾⁾\n赤色に染まる時間を置き忘れ去れば\n₍₍₍(ง🎃)ว⁾⁾⁾\n哀しい世界はもう二度となくて\n₍₍ᕦ(🎃)ᕤ⁾⁾　₍₍ʅ(🎃)ว⁾⁾\n🙏\n🎃\n荒れた陸地が こぼれ落ちていく\n₍₍ ʅ(🎃) ʃ ⁾⁾\n一筋の光へ"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
