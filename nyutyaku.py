@@ -11,7 +11,7 @@ import datetime
 import random
 from discord.ext import commands
 
-TOKEN = 'MTAzNTE3MzYxNjI0MjkzMzg1MA.G_ILju.QS0Ltm0imig-tvdvi-sF3xOqsg04_mphIKldXE'
+TOKEN = 'xx'
 CHANNEL_ID = 1035159385221111828
 client = discord.Client()
 time = datetime.datetime.now()
