@@ -37,6 +37,8 @@ async def on_message(message):
         await message.add_reaction(good)
     if message.content.startswith('エキサイト'):
         await message.add_reaction(excite)
+    if message.content.startswith('ｴｷｻｲﾄ'):
+        await message.add_reaction(excite)
     if message.content.startswith(excite):
         await message.add_reaction(good)
     
