@@ -918,5 +918,4 @@ client.run(TOKEN)
 # https://qiita.com/manuo/items/30663f4f1d4029bbee19
 # https://qiita.com/Arusu_Dev/items/683aef9da468725e778a
 # https://lets-emoji.com/emojilist/emojilist-1/
-# https://hashikake.com/library#toc5
-# https://aismiley.co.jp/ai_news/deep-learning-forefront/
+

@@ -9,6 +9,9 @@ import discord
 import asyncio
 import datetime
 import random
+import csv
+import pprint
+
 from discord.ext import commands
 
 TOKEN = 'xx'
@@ -23,6 +26,10 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+    if message.content.startswith('<@1035173616242933850>'):
+        print (message.id)
+        send_message = "入着おめでとうございます！"
+        await message.channel.send(send_message)
     if message.author.bot:
         return
     if message.channel.id != CHANNEL_ID:
@@ -76,19 +83,22 @@ async def on_message(message):
         send_message = "おめでとうございます！！！今日は祝勝パーティーですね！！"
         await message.channel.send(send_message)
     if ('https://twitter.com/') in message.content:
-        send_message = "TwitterリンクだとBOTは集計できません。\n集計したい場合はチャンネル内に画像を添付して\nレース名・モブウマ娘の名前・順位を送信してください。"
+        send_message = "TwitterリンクだとBOT側では集計できません。\n集計したい場合はメッセージ内に入着報告というタイトルを入れ、\nレース名・モブウマ娘の名前・順位・画像などを送信してください。"
         await message.channel.send(send_message)
-    if ('日本ダービー') in message.content:
-        f = open('1.txt', 'w')
-        if ('検索') in message.content:
-            send_message = "TwitterリンクだとBOTは集計できません。\n集計したい場合はチャンネル内に画像を添付して\nレース名・モブウマ娘の名前・順位を送信してください。"
-            await message.channel.send(send_message)
-        else:
-            num='1'
-            f.write(num)
-            send_message = num
-            await message.channel.send(send_message+"回目です")
-            f.close()
+    if ('入着報告') in message.content:
+        me = message.id
+        link="https://discord.com/channels/889014331902136342/1035159385221111828/{}\n".format(me)
+        keep="-----\n{}\n".format(message.content)
+        f = open('keep.txt', 'a',encoding='UTF-8')
+        datalist = [keep,link]
+        f.writelines(datalist)
+        f.close()
+        send_message = "メッセージリンクを保存しました。\n【今回の報告】\n{}".format(link)
+        await message.channel.send(send_message)
+    if ('全報告まとめ') in message.content:
+        send_message = "全報告まとめ"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\keep.txt'
+        await message.channel.send(send_message,file=discord.File(filepath))
 
     
 
@@ -108,6 +118,7 @@ client.run(TOKEN)
 #ここより下に書かれた処理はボットが停止するまで実行されない
 # 俺のユーザーid = 656384100890050570
 # message.channel.id = 1035159385221111828
+# サーバーID = 889014331902136342
 # python nyutyaku.py　または py nyutyaku.py で動く  
 # py -m pip install git+https://github.com/Pycord-Development/pycord
 # https://www.javadrive.jp/python/file/index3.html
