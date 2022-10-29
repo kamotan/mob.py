@@ -8,11 +8,7 @@ from turtle import color
 import discord
 import asyncio
 import datetime
-import random
-import csv
-import pprint
 
-from discord.ext import commands
 
 TOKEN = 'xx'
 CHANNEL_ID = 1035159385221111828
@@ -26,10 +22,6 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.startswith('<@1035173616242933850>'):
-        print (message.id)
-        send_message = "入着おめでとうございます！"
-        await message.channel.send(send_message)
     if message.author.bot:
         return
     if message.channel.id != CHANNEL_ID:
@@ -90,7 +82,8 @@ async def on_message(message):
         link="https://discord.com/channels/889014331902136342/1035159385221111828/{}\n".format(me)
         keep="-----\n{}\n".format(message.content)
         f = open('keep.txt', 'a',encoding='UTF-8')
-        datalist = [keep,link]
+        t="{}\n".format(time)
+        datalist = [keep,t,link]
         f.writelines(datalist)
         f.close()
         send_message = "メッセージリンクを保存しました。\n【今回の報告】\n{}".format(link)

@@ -8,19 +8,13 @@ import discord
 import asyncio
 import datetime
 import random
-from discord.ext import commands
 
-TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+TOKEN = 'xx'
 CHANNEL_ID = 986260124983242762
 client = discord.Client()
 time = datetime.datetime.now()
-exciteFace = "<:ExciteStuff:962698922462162974>"
-good = ":thumbsup:"
-eyes = ":eyes:"
-heart = "\N{SMILING FACE WITH HEARTS}"
+excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
 
-   
-    
 @client.event
 async def on_ready():
     print('Bot Launched')
@@ -28,31 +22,21 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    async def reply(message):
-        reply = f'{message.author.mention} 呼んだ？' 
-        await message.channel.send(reply) 
-    if client.user in message.mentions: 
-        await reply(message) 
     if message.content.startswith('<@987983504589590568>'):
-        await message.add_reaction(good)
+            await message.add_reaction("<:ExciteStuff:962698922462162974>")
     if ('エキサイト') in message.content:
-            await message.add_reaction(exciteFace)
+            await message.add_reaction("<:ExciteStuff:962698922462162974>")
     if ('ｴｷｻｲﾄ') in message.content:
-            await message.add_reaction(exciteFace)
-    if (exciteFace) in message.content:
-            await message.add_reaction(good)
+            await message.add_reaction("<:ExciteStuff:962698922462162974>")
+    if ("<:ExciteStuff:962698922462162974>") in message.content:
+            await message.add_reaction("<:ExciteStuff:962698922462162974>")
     
 
     if message.author.bot:
-        words = ["C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg"]
-        words1 = ["C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\エキサイトスタッフ.jpg"]
-        if (words) in message.content:
-            await message.add_reaction(exciteFace,good,eyes)
-        if (words1) in message.content:
-            await message.add_reaction(exciteFace,good,eyes)
-
-    else:
-        return
+        if ('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg') in message.content:
+            await message.add_reaction("<:ExciteStuff:962698922462162974>")
+        else:
+            return
         
     if message.channel.id != CHANNEL_ID:
         return
@@ -89,7 +73,6 @@ async def on_message(message):
         await message.channel.send(send_message)
     if message.content.startswith('Who is That Mob Umamusume?'):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -100,7 +83,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith("Who's That Mob Umamusume?"):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -111,7 +93,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith('Who is That Mob Umamusume？'):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -122,7 +103,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith('who is that mob umamusume?'):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -133,7 +113,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith('who is that mob umamusume？'):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -144,7 +123,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith('Who is that mob umamusume?'):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -155,7 +133,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith('Who is that mob umamusume？'):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -166,7 +143,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith("Who's that mob umamusume?"):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -177,7 +153,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith("Who's that mob umamusume？"):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -188,7 +163,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith("who's that mob umamusume?"):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -199,7 +173,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith("who's that mob umamusume？"):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -210,7 +183,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith("WHO IS THAT MOB UMAMUSUME？"):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -221,7 +193,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith("WHO IS THAT MOB UMAMUSUME?"):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -232,7 +203,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith("WHO'S THAT MOB UMAMUSUME？"):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -243,7 +213,6 @@ async def on_message(message):
             await message.channel.send(send_message)
     if message.content.startswith("WHO'S THAT MOB UMAMUSUME?"):
         send_message = "『It's Excite stuff!!!!!!!!!!( ﾟДﾟ)』"
-        excite='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
         if excite == filepath:
@@ -831,6 +800,7 @@ async def on_message(message):
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
         ]
+        print(myfiles)
         await message.channel.send(send_message,files=myfiles)
     if ('10連') in message.content:
         send_message = "確定とかないからね"
@@ -877,6 +847,7 @@ async def on_message(message):
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'),
         ]
         await message.channel.send(send_message,files=myfiles)
+        
     if message.content.startswith('やってみせろよ！ランダム！'):
         send_message = "「なんとでもなるはずだ！」\n「ランダムだとっ！？」\n₍₍(ง🎃)ว⁾⁾\n鳴らない言葉をもう一度描いて\n₍₍ᕦ(🎃)ᕤ⁾⁾\n₍₍ʅ(🎃)ว⁾⁾\n₍₍🙏⁾⁾\n₍₍🎃⁾⁾\n赤色に染まる時間を置き忘れ去れば\n₍₍₍(ง🎃)ว⁾⁾⁾\n哀しい世界はもう二度となくて\n₍₍ᕦ(🎃)ᕤ⁾⁾　₍₍ʅ(🎃)ว⁾⁾\n🙏\n🎃\n荒れた陸地が こぼれ落ちていく\n₍₍ ʅ(🎃) ʃ ⁾⁾\n一筋の光へ"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
