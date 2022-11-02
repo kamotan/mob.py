@@ -908,4 +908,5 @@ client.run(TOKEN)
 # https://qiita.com/manuo/items/30663f4f1d4029bbee19
 # https://qiita.com/Arusu_Dev/items/683aef9da468725e778a
 # https://lets-emoji.com/emojilist/emojilist-1/
-
+# https://qiita.com/hisuie08/items/5b63924156080694fc81
+# https://qiita.com/sevenc-nanashi/items/2eec14c7f1cbe3d734a9
