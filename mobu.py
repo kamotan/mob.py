@@ -35,6 +35,22 @@ async def on_message(message):
     if message.author.bot:
         if ('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg') in message.content:
             await message.add_reaction("<:ExciteStuff:962698922462162974>")
+        elif ('テスト十連') in message.content:
+        　　　　　　　　send_message = "これはテストです。"
+        　　　　　　　　myfiles0 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
+        　　　　　　　　myfiles1 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
+        　　　　　　　　myfiles2 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
+        　　　　　　　　myfiles3 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
+        　　　　　　　　myfiles4 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
+        　　　　　　　　myfiles5 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
+        　　　　　　　　myfiles6 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
+        　　　　　　　　myfiles7 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
+        　　　　　　　　myfiles8 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
+        　　　　　　　　myfiles9 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\７１.jpg')
+        　　　　　　　　await message.channel.send(send_message,files=myfiles0,myfiles1,myfiles2,myfiles3,myfiles4,myfiles5,myfiles6,myfiles7,myfiles8,myfiles9)
+        　　　　　　　　if (excite) in files:
+            　　　　　　　　　await message.add_reaction("<:ExciteStuff:962698922462162974>")
+
         else:
             return
         
@@ -863,12 +879,15 @@ async def on_message(message):
         lank = ['G','G+','F','F+','E','E+','D','D+','C','C+','B','B+','A','A+','S','S+','SS','SS+','UG','UG1','UG2','UG3','UG4','UG5','UG6','UG7','UG8','UG9','UF']
         send_message = "あなたの担当ウマ娘は{}ランクでした。".format(random.choices(lank))
         await message.channel.send(send_message)
+    if message.content.startswith('福引'):
+        lank = ['ティッシュ','にんじん一本','にんじん大盛り','特上にんじんハンバーグ','温泉旅行券']
+        send_message = "あなたの担当ウマ娘は{}ランクでした。".format(random.choices(lank))
+        await message.channel.send(send_message)
     if message.content.startswith('エラー発生'):
         send_message = ""
         filepath = 'D:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\テスト.jpg'
         await message.channel.send(send_message,file=discord.File(filepath))
-
-
+     
     
     
     
