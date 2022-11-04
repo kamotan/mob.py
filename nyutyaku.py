@@ -74,6 +74,12 @@ async def on_message(message):
     if ('優勝') in message.content:
         send_message = "おめでとうございます！！！今日は祝勝パーティーですね！！"
         await message.channel.send(send_message)
+    if ('ライブ') in message.content:
+        send_message = "ウイニングライブの時間だあああ！！！"
+        await message.channel.send(send_message)
+    if ('うまぴょい') in message.content:
+        send_message = "うまぴょいの時間だあああ！！！"
+        await message.channel.send(send_message)
     if ('https://twitter.com/') in message.content:
         send_message = "TwitterリンクだとBOT側では集計できません。\n集計したい場合はメッセージ内に入着報告というタイトルを入れ、\nレース名・モブウマ娘の名前・順位・画像などを送信してください。"
         await message.channel.send(send_message)
@@ -88,9 +94,25 @@ async def on_message(message):
         f.close()
         send_message = "メッセージリンクを保存しました。\n【今回の報告】\n{}".format(link)
         await message.channel.send(send_message)
+    if ('ライブ') in message.content:
+        me = message.id
+        link="https://discord.com/channels/889014331902136342/1035159385221111828/{}\n".format(me)
+        keep="-----\n{}\n".format(message.content)
+        f = open('live.txt', 'a',encoding='UTF-8')
+        t="{}\n".format(time)
+        datalist = [keep,t,link]
+        f.writelines(datalist)
+        f.close()
+        send_message = "【ライブ専用】メッセージリンクを保存しました。\n【今回の報告】\n{}".format(link)
+        await message.channel.send(send_message)
+        
     if ('全報告まとめ') in message.content:
         send_message = "全報告まとめ"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\keep.txt'
+        await message.channel.send(send_message,file=discord.File(filepath))
+    if ('ウイニングライブ画像まとめ') in message.content:
+        send_message = "全報告まとめ"
+        filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\live.txt'
         await message.channel.send(send_message,file=discord.File(filepath))
 
     

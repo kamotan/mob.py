@@ -35,21 +35,25 @@ async def on_message(message):
     if message.author.bot:
         if ('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg') in message.content:
             await message.add_reaction("<:ExciteStuff:962698922462162974>")
-        elif ('テスト十連') in message.content:
-        　　　　　　　　send_message = "これはテストです。"
-        　　　　　　　　myfiles0 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
-        　　　　　　　　myfiles1 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
-        　　　　　　　　myfiles2 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
-        　　　　　　　　myfiles3 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
-        　　　　　　　　myfiles4 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
-        　　　　　　　　myfiles5 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
-        　　　　　　　　myfiles6 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
-        　　　　　　　　myfiles7 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
-        　　　　　　　　myfiles8 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613)))
-        　　　　　　　　myfiles9 = discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\７１.jpg')
-        　　　　　　　　await message.channel.send(send_message,files=myfiles0,myfiles1,myfiles2,myfiles3,myfiles4,myfiles5,myfiles6,myfiles7,myfiles8,myfiles9)
-        　　　　　　　　if (excite) in files:
-            　　　　　　　　　await message.add_reaction("<:ExciteStuff:962698922462162974>")
+        elif ('テストガチャ') in message.content:
+            send_message = "これはテストです"
+            my0='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
+            my1='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
+            my2='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
+            my3='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
+            my4='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
+            my5='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
+            my6='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
+            my7='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
+            my8='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
+            my9='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
+            myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
+            print(myfiles)
+
+            await message.channel.send(send_message,files=myfiles)
+            if (excite) in myfiles:
+                await message.add_reaction("<:ExciteStuff:962698922462162974>")
+
 
         else:
             return
@@ -803,32 +807,277 @@ async def on_message(message):
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
         await message.channel.send(send_message,file=discord.File(filepath))
     if ('１０連') in message.content:
-        send_message = "確定とかないからね"
-        my1='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my2='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my3='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my4='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my5='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my6='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my7='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my8='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my9='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my10='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        myfiles=my1+my2+my3+my4+my5+my6+my7+my8+my9+my10
-        # myfiles = [
-        #     discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
-        #     discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
-        #     discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
-        #     discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
-        #     discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
-        #     discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
-        #     discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
-        #     discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
-        #     discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
-        #     discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
-        # ]
-        # print(myfiles)
-        await message.channel.send(send_message,files=myfiles)
+        if ('ピンク') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ピンク\\pink{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ピンク\\pink{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ピンク\\pink{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ピンク\\pink{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ピンク\\pink{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ピンク\\pink{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ピンク\\pink{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ピンク\\pink{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ピンク\\pink{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ピンク\\pink{}.jpg'.format(random.randint(1,68))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('ベージュ') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ベージュ\\beige{}.jpg'.format(random.randint(1,24))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ベージュ\\beige{}.jpg'.format(random.randint(1,24))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ベージュ\\beige{}.jpg'.format(random.randint(1,24))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ベージュ\\beige{}.jpg'.format(random.randint(1,24))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ベージュ\\beige{}.jpg'.format(random.randint(1,24))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ベージュ\\beige{}.jpg'.format(random.randint(1,24))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ベージュ\\beige{}.jpg'.format(random.randint(1,24))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ベージュ\\beige{}.jpg'.format(random.randint(1,24))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ベージュ\\beige{}.jpg'.format(random.randint(1,24))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ベージュ\\beige{}.jpg'.format(random.randint(1,24))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('レモン') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\レモン\\lemon{}.jpg'.format(random.randint(1,74))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\レモン\\lemon{}.jpg'.format(random.randint(1,74))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\レモン\\lemon{}.jpg'.format(random.randint(1,74))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\レモン\\lemon{}.jpg'.format(random.randint(1,74))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\レモン\\lemon{}.jpg'.format(random.randint(1,74))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\レモン\\lemon{}.jpg'.format(random.randint(1,74))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\レモン\\lemon{}.jpg'.format(random.randint(1,74))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\レモン\\lemon{}.jpg'.format(random.randint(1,74))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\レモン\\lemon{}.jpg'.format(random.randint(1,74))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\レモン\\lemon{}.jpg'.format(random.randint(1,74))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('葦毛') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\葦毛\\white{}.jpg'.format(random.randint(1,30))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\葦毛\\white{}.jpg'.format(random.randint(1,30))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\葦毛\\white{}.jpg'.format(random.randint(1,30))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\葦毛\\white{}.jpg'.format(random.randint(1,30))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\葦毛\\white{}.jpg'.format(random.randint(1,30))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\葦毛\\white{}.jpg'.format(random.randint(1,30))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\葦毛\\white{}.jpg'.format(random.randint(1,30))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\葦毛\\white{}.jpg'.format(random.randint(1,30))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\葦毛\\white{}.jpg'.format(random.randint(1,30))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\葦毛\\white{}.jpg'.format(random.randint(1,30))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('灰色') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('グレー') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\灰色\\gray{}.jpg'.format(random.randint(1,79))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('黒') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\黒\\black{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\黒\\black{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\黒\\black{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\黒\\black{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\黒\\black{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\黒\\black{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\黒\\black{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\黒\\black{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\黒\\black{}.jpg'.format(random.randint(1,68))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\黒\\black{}.jpg'.format(random.randint(1,68))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('阪急') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('あずき色') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('小豆色') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\阪急\\hankyu{}.jpg'.format(random.randint(1,50))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('紫') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\紫\\purple{}.jpg'.format(random.randint(1,39))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\紫\\purple{}.jpg'.format(random.randint(1,39))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\紫\\purple{}.jpg'.format(random.randint(1,39))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\紫\\purple{}.jpg'.format(random.randint(1,39))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\紫\\purple{}.jpg'.format(random.randint(1,39))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\紫\\purple{}.jpg'.format(random.randint(1,39))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\紫\\purple{}.jpg'.format(random.randint(1,39))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\紫\\purple{}.jpg'.format(random.randint(1,39))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\紫\\purple{}.jpg'.format(random.randint(1,39))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\紫\\purple{}.jpg'.format(random.randint(1,39))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('小麦') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\小麦\\wheat{}.jpg'.format(random.randint(1,69))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\小麦\\wheat{}.jpg'.format(random.randint(1,69))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\小麦\\wheat{}.jpg'.format(random.randint(1,69))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\小麦\\wheat{}.jpg'.format(random.randint(1,69))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\小麦\\wheat{}.jpg'.format(random.randint(1,69))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\小麦\\wheat{}.jpg'.format(random.randint(1,69))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\小麦\\wheat{}.jpg'.format(random.randint(1,69))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\小麦\\wheat{}.jpg'.format(random.randint(1,69))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\小麦\\wheat{}.jpg'.format(random.randint(1,69))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\小麦\\wheat{}.jpg'.format(random.randint(1,69))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('赤') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\赤\\red{}.jpg'.format(random.randint(1,60))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\赤\\red{}.jpg'.format(random.randint(1,60))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\赤\\red{}.jpg'.format(random.randint(1,60))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\赤\\red{}.jpg'.format(random.randint(1,60))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\赤\\red{}.jpg'.format(random.randint(1,60))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\赤\\red{}.jpg'.format(random.randint(1,60))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\赤\\red{}.jpg'.format(random.randint(1,60))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\赤\\red{}.jpg'.format(random.randint(1,60))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\赤\\red{}.jpg'.format(random.randint(1,60))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\赤\\red{}.jpg'.format(random.randint(1,60))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('茶') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\茶\\brown{}.jpg'.format(random.randint(1,29))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\茶\\brown{}.jpg'.format(random.randint(1,29))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\茶\\brown{}.jpg'.format(random.randint(1,29))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\茶\\brown{}.jpg'.format(random.randint(1,29))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\茶\\brown{}.jpg'.format(random.randint(1,29))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\茶\\brown{}.jpg'.format(random.randint(1,29))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\茶\\brown{}.jpg'.format(random.randint(1,29))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\茶\\brown{}.jpg'.format(random.randint(1,29))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\茶\\brown{}.jpg'.format(random.randint(1,29))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\茶\\brown{}.jpg'.format(random.randint(1,29))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('ラベンダー') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ラベンダー\\light purple{}.jpg'.format(random.randint(1,20))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ラベンダー\\light purple{}.jpg'.format(random.randint(1,20))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ラベンダー\\light purple{}.jpg'.format(random.randint(1,20))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ラベンダー\\light purple{}.jpg'.format(random.randint(1,20))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ラベンダー\\light purple{}.jpg'.format(random.randint(1,20))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ラベンダー\\light purple{}.jpg'.format(random.randint(1,20))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ラベンダー\\light purple{}.jpg'.format(random.randint(1,20))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ラベンダー\\light purple{}.jpg'.format(random.randint(1,20))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ラベンダー\\light purple{}.jpg'.format(random.randint(1,20))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\ラベンダー\\light purple{}.jpg'.format(random.randint(1,20))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('牝馬') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牝馬\\female{}.jpg'.format(random.randint(1,175))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牝馬\\female{}.jpg'.format(random.randint(1,175))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牝馬\\female{}.jpg'.format(random.randint(1,175))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牝馬\\female{}.jpg'.format(random.randint(1,175))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牝馬\\female{}.jpg'.format(random.randint(1,175))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牝馬\\female{}.jpg'.format(random.randint(1,175))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牝馬\\female{}.jpg'.format(random.randint(1,175))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牝馬\\female{}.jpg'.format(random.randint(1,175))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牝馬\\female{}.jpg'.format(random.randint(1,175))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牝馬\\female{}.jpg'.format(random.randint(1,175))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        elif ('牡馬') in message.content:
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牡馬\\male{}.jpg'.format(random.randint(1,438))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牡馬\\male{}.jpg'.format(random.randint(1,438))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牡馬\\male{}.jpg'.format(random.randint(1,438))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牡馬\\male{}.jpg'.format(random.randint(1,438))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牡馬\\male{}.jpg'.format(random.randint(1,438))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牡馬\\male{}.jpg'.format(random.randint(1,438))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牡馬\\male{}.jpg'.format(random.randint(1,438))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牡馬\\male{}.jpg'.format(random.randint(1,438))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牡馬\\male{}.jpg'.format(random.randint(1,438))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\牡馬\\male{}.jpg'.format(random.randint(1,438))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        else:    
+            send_message = "確定とかないからね"
+            myfiles = [
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
+                discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
+            ]
+            await message.channel.send(send_message,files=myfiles)
+        
     if ('10連') in message.content:
         send_message = "確定とかないからね"
         myfiles = [
@@ -859,6 +1108,7 @@ async def on_message(message):
             discord.File('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))),
         ]
         await message.channel.send(send_message,files=myfiles)
+    
     if message.content.startswith('かもたん特効'):
         send_message = "ｴｷｻｰｲ! ｴｷｻｰｲ!"
         myfiles = [
