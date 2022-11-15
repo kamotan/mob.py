@@ -17,6 +17,8 @@ excite = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
 stuby = "<@!656384100890050570>勉強しろ"
 stuby_kyunaru = "<@!954716402995048459>勉強しろ"
 walk = "<@!656384100890050570>作業しろ"
+UnicodeEmoji = "\N{SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES}"
+
 
 @client.event
 async def on_ready():
@@ -56,6 +58,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('ベージュ') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -72,6 +77,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('レモン') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -88,6 +96,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('葦毛') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -104,6 +115,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('灰色') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -120,6 +134,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('グレー') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -136,6 +153,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('黒') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -152,6 +172,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('阪急') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -168,6 +191,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('あずき色') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -184,6 +210,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('小豆色') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -200,6 +229,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('紫') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -216,6 +248,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('小麦') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -232,6 +267,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('赤') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -248,6 +286,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('茶') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -264,6 +305,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('ラベンダー') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -280,6 +324,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('牝馬') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -296,6 +343,9 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
             elif ('牡馬') in message.content:
                 send_message = "確定とかないからね"
                 myfiles = [
@@ -312,7 +362,10 @@ async def on_message(message):
                 ]
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
-            if ('テストガチャ') in message.content:
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
+            else:
                 send_message = "これはテストです"
                 my0='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my1='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
@@ -326,9 +379,10 @@ async def on_message(message):
                 my9='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
                 myfiles=[my0,my1,my2,my3,my4,my5,my6,my7,my8,my9]
                 await message.channel.send(send_message,files=myfiles)
-            if (excite) in myfiles:
-                await message.add_reaction("<:ExciteStuff:962698922462162974>")
-                await message.add_reaction(':eyes:")
+                if (excite) in myfiles:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction(':eyes:')
+            
         elif ('かもたん特効') in message.content:
             send_message = "ｴｷｻｰｲ! ｴｷｻｰｲ!"
             my0='C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
@@ -346,7 +400,7 @@ async def on_message(message):
             await message.channel.send(send_message,files=myfiles)
         if (excite) in myfiles:
             await message.add_reaction("<:ExciteStuff:962698922462162974>")
-            await message.add_reaction(':eyes:")
+            await message.add_reaction(':eyes:')
 
 
         else:
@@ -358,21 +412,23 @@ async def on_message(message):
     if ('こんにちは') in message.content:
         send_message = f'{message.author.mention}さん、こんにちは！'
         await message.channel.send(send_message)
+    if ('笑い') in message.content:
+         await message.add_reaction(UnicodeEmoji)
     if ('かもたん勉強しろ') in message.content:
         send_message = "<@!656384100890050570>勉強しろ"
         await message.channel.send(send_message)
         if(stuby)in send_message:
-            await message.add_reaction(':scream:")
+            await message.add_reaction(':scream:')
     if ('かもたん作業しろ') in message.content:
         send_message = "<@!656384100890050570>作業しろ"
         await message.channel.send(send_message)
         if(walk)in send_message:
-            await message.add_reaction(':scream:")
+            await message.add_reaction(':scream:')
     if ('きゅなる勉強しろ') in message.content:
         send_message = "<@!954716402995048459>勉強しろ"
         await message.channel.send(send_message)
         if(stuby_kyunaru)in send_message:
-            await message.add_reaction(':scream:")
+            await message.add_reaction(':scream:')
     if message.content.startswith('いとも容易く貼られる名鑑特効'):
         send_message = "これが文明の力ですよ・・・（）"
         await message.channel.send(send_message)
