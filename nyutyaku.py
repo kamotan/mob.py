@@ -84,16 +84,26 @@ async def on_message(message):
         send_message = "TwitterリンクだとBOT側では集計できません。\n集計したい場合はメッセージ内に入着報告というタイトルを入れ、\nレース名・モブウマ娘の名前・順位・画像などを送信してください。"
         await message.channel.send(send_message)
     if ('入着報告') in message.content:
-        me = message.id
-        link="https://discord.com/channels/889014331902136342/1035159385221111828/{}\n".format(me)
-        keep="-----\n{}\n".format(message.content)
-        f = open('keep.txt', 'a',encoding='UTF-8')
-        t="{}\n".format(time)
-        datalist = [keep,t,link]
-        f.writelines(datalist)
-        f.close()
-        send_message = "メッセージリンクを保存しました。\n【今回の報告】\n{}".format(link)
-        await message.channel.send(send_message)
+        if ('HARD') in message.content:
+            send_message = "レジェンドレースは集計出来ません。"
+            await message.channel.send(send_message)
+        elif ('NORMAL') in message.content:
+            send_message = "レジェンドレースは集計出来ません。"
+            await message.channel.send(send_message)
+        elif ('EASY') in message.content:
+            send_message = "レジェンドレースは集計出来ません。"
+            await message.channel.send(send_message)
+        else:
+            me = message.id
+            link="https://discord.com/channels/889014331902136342/1035159385221111828/{}\n".format(me)
+            keep="-----\n{}\n".format(message.content)
+            f = open('keep.txt', 'a',encoding='UTF-8')
+            t="{}\n".format(time)
+            datalist = [keep,t,link]
+            f.writelines(datalist)
+            f.close()
+            send_message = "メッセージリンクを保存しました。\n【今回の報告】\n{}".format(link)
+            await message.channel.send(send_message)
     if ('ライブ') in message.content:
         me = message.id
         link="https://discord.com/channels/889014331902136342/1035159385221111828/{}\n".format(me)
