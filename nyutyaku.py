@@ -85,13 +85,31 @@ async def on_message(message):
         await message.channel.send(send_message)
     if ('入着報告') in message.content:
         if ('HARD') in message.content:
-            send_message = "レジェンドレースは集計出来ません。"
+            send_message = "集計出来ません。"
             await message.channel.send(send_message)
         elif ('NORMAL') in message.content:
-            send_message = "レジェンドレースは集計出来ません。"
+            send_message = "集計出来ません。"
             await message.channel.send(send_message)
         elif ('EASY') in message.content:
-            send_message = "レジェンドレースは集計出来ません。"
+            send_message = "集計出来ません。"
+            await message.channel.send(send_message)
+        elif ('hard') in message.content:
+            send_message = "集計出来ません。"
+            await message.channel.send(send_message)
+        elif ('normal') in message.content:
+            send_message = "集計出来ません。"
+            await message.channel.send(send_message)
+        elif ('easy') in message.content:
+            send_message = "集計出来ません。"
+            await message.channel.send(send_message)
+        elif ('Hard') in message.content:
+            send_message = "集計出来ません。"
+            await message.channel.send(send_message)
+        elif ('Normal') in message.content:
+            send_message = "集計出来ません。"
+            await message.channel.send(send_message)
+        elif ('Easy') in message.content:
+            send_message = "集計出来ません。"
             await message.channel.send(send_message)
         else:
             me = message.id
