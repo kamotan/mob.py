@@ -8,6 +8,9 @@ import discord
 import asyncio
 import datetime
 import random
+import cv2
+import numpy as np
+
 
 TOKEN = 'xx'
 CHANNEL_ID = 986260124983242762
@@ -17,6 +20,8 @@ excite = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
 stuby = "<@!656384100890050570>勉強しろ"
 stuby_kyunaru = "<@!954716402995048459>勉強しろ"
 walk = "<@!656384100890050570>作業しろ"
+im1 = cv2.imread('data/src/lena.jpg')
+im2 = cv2.imread('data/src/rocket.jpg')
 
 @client.event
 async def on_ready():
@@ -2272,6 +2277,30 @@ async def on_message(message):
         if (excite) in my9:
             await message.add_reaction("<:ExciteStuff:962698922462162974>")
             await message.add_reaction('\N{EYES}')
+    if ('test') in message.content:
+        send_message = "確定とかないからね"
+        myfiles=[]
+        my0= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
+        my1= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
+        my2= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
+        my3= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
+        my4= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
+        my5= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
+        my6= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
+        my7= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
+        my8= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
+        my9= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
+        myfiles.append(discord.File(my0))
+        myfiles.append(discord.File(my1))
+        myfiles.append(discord.File(my2))
+        myfiles.append(discord.File(my3))
+        myfiles.append(discord.File(my4))
+        myfiles.append(discord.File(my5))
+        myfiles.append(discord.File(my6))
+        myfiles.append(discord.File(my7))
+        myfiles.append(discord.File(my8))
+        myfiles.append(discord.File(my9))
+        await message.channel.send(send_message,files=myfiles)
     if ('ランダム') in message.content:
         send_message = "ランダムで選ばれたのはこの娘！"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
@@ -2308,5 +2337,8 @@ client.run(TOKEN)
 # https://qiita.com/manuo/items/30663f4f1d4029bbee19
 # https://qiita.com/Arusu_Dev/items/683aef9da468725e778a
 # https://lets-emoji.com/emojilist/emojilist-1/
-# https://qiita.com/hisuie08/items/5b63924156080694fc81
+# https://qiita.com/hisuie08/items/5b63924156080694fc81]
 # https://qiita.com/sevenc-nanashi/items/2eec14c7f1cbe3d734a9
+# https://qiita.com/Poteto143/items/bbc61d3adf9b6b72f75f
+# https://note.nkmk.me/python-opencv-hconcat-vconcat-np-tile/
+# https://camp.trainocate.co.jp/magazine/python-opencv/
