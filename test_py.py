@@ -12,7 +12,7 @@ import cv2
 import numpy as np
 
 
-TOKEN = 'xx'
+TOKEN = 'M TA0Mjc2MDI1MjAyNzgzNDQxOA.GovMQp._NzJNtGKxe_UeeAMAmfmahKeButtcS8VXywH-o'
 CHANNEL_ID = 986260124983242762
 client = discord.Client()
 time = datetime.datetime.now()
