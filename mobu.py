@@ -63,7 +63,7 @@ mini_cactus = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\mini\\mini2.jpg'
 
 sphene = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\198.jpg'
 white_sphene = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\white\\white11.jpg'
-deco_sphene= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\deco_sphere\\deco_sphere8.jpg'
+deco_sphene= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\deco_outside_splash\\deco_outside_splash8.jpg'
 female_sphene = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\female\\female12.jpg'
 jewel_sphene = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\jewel\\jewel12.jpg'
 
@@ -72,8 +72,6 @@ jewel_sphene = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\jewel\\jewel12.jpg'
 stuby = "<@!656384100890050570>勉強しろ"
 stuby_kyunaru = "<@!954716402995048459>勉強しろ"
 walk = "<@!656384100890050570>作業しろ"
-im1 = cv2.imread('data/src/lena.jpg')
-im2 = cv2.imread('data/src/rocket.jpg')
 
 @client.event
 async def on_ready():
@@ -2037,34 +2035,34 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
-                if (jewel_sphere) in my0:
+                if (jewel_sphene) in my0:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my1:
+                if (jewel_sphene) in my1:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my2:
+                if (jewel_sphene) in my2:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my3:
+                if (jewel_sphene) in my3:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my4:
+                if (jewel_sphene) in my4:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my5:
+                if (jewel_sphene) in my5:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my6:
+                if (jewel_sphene) in my6:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my7:
+                if (jewel_sphene) in my7:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my8:
+                if (jewel_sphene) in my8:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my9:
+                if (jewel_sphene) in my9:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
             elif ('リード') in message.content:
@@ -2793,7 +2791,7 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
-            elif ('外はね') in message.content:
+            elif ('ただの外はね') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
                 my0= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\outside splash\\outside splash{}.jpg'.format(random.randint(1,32))
@@ -3197,7 +3195,7 @@ async def on_message(message):
                     await message.add_reaction('\N{EYES}')
             else:
                 send_message = "確定とかないからね"
-                myfiles=[]
+                list_img = []
                 my0= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my1= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my2= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
@@ -3208,17 +3206,60 @@ async def on_message(message):
                 my7= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my8= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my9= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-                myfiles.append(discord.File(my0))
-                myfiles.append(discord.File(my1))
-                myfiles.append(discord.File(my2))
-                myfiles.append(discord.File(my3))
-                myfiles.append(discord.File(my4))
-                myfiles.append(discord.File(my5))
-                myfiles.append(discord.File(my6))
-                myfiles.append(discord.File(my7))
-                myfiles.append(discord.File(my8))
-                myfiles.append(discord.File(my9))
-                await message.channel.send(send_message,files=myfiles)
+                img_1 = cv2.imread('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\kekka.jpg') 
+                img_2 = cv2.imread(my0) 
+                img_3 = cv2.imread(my1)
+                img_4 = cv2.imread(my2)
+                img_5 = cv2.imread(my3)
+                img_6 = cv2.imread(my4)
+                img_7 = cv2.imread(my5)
+                img_8 = cv2.imread(my6)
+                img_9 = cv2.imread(my7)
+                img_10 = cv2.imread(my8)
+                img_11 = cv2.imread(my9)
+                list_img.append(img_1) 
+                list_img.append(img_2) 
+                list_img.append(img_3) 
+                list_img.append(img_4) 
+                list_img.append(img_5) 
+                list_img.append(img_6) 
+                list_img.append(img_7) 
+                list_img.append(img_8) 
+                list_img.append(img_9) 
+                list_img.append(img_10) 
+                list_img.append(img_11) 
+                def vconcat_resize_min(im_list, interpolation=cv2.INTER_CUBIC):
+                    w_min = min(im.shape[1] for im in im_list)
+                    im_list_resize = [cv2.resize(im, (w_min, int(im.shape[0] * w_min / im.shape[1])), interpolation=interpolation)
+                      for im in im_list]
+                    return cv2.vconcat(im_list_resize)
+                im_v_resize = vconcat_resize_min([img_1, img_2])
+
+                def hconcat_resize_min(im_list, interpolation=cv2.INTER_CUBIC):
+                    h_min = min(im.shape[0] for im in im_list)
+                    im_list_resize = [cv2.resize(im, (int(im.shape[1] * h_min / im.shape[0]), h_min), interpolation=interpolation)
+                      for im in im_list]
+                    return cv2.hconcat(im_list_resize)
+                im_h_resize = hconcat_resize_min([img_1, img_2])
+
+                def concat_tile(im_list_2d):
+                    return cv2.vconcat([cv2.hconcat(im_list_h) for im_list_h in im_list_2d])
+
+                im1_s = cv2.resize(img_2, dsize=(0, 0), fx=0.5, fy=0.5)
+                im_tile = concat_tile([[im1_s, im1_s, im1_s, im1_s],
+                                       [im1_s, im1_s, im1_s, im1_s],
+                                       [im1_s, im1_s, im1_s, im1_s]])
+                im_tile_np = np.tile(im1_s, (3, 4, 1))
+
+                def concat_tile_resize(im_list_2d, interpolation=cv2.INTER_CUBIC):
+                    im_list_v = [hconcat_resize_min(im_list_h, interpolation=cv2.INTER_CUBIC) for im_list_h in im_list_2d]
+                    return vconcat_resize_min(im_list_v, interpolation=cv2.INTER_CUBIC)
+                im_tile_resize = concat_tile_resize([[img_1],
+                                     [img_2, img_3, img_4, img_5, img_6],
+                                     [img_7, img_8, img_9, img_10, img_11]])
+                cv2.imwrite('img/opencv_concat_tile_resize.jpg', im_tile_resize)
+                myfiles='img/opencv_concat_tile_resize.jpg'
+                await message.channel.send(send_message, file=discord.File(myfiles))
                 if (excite) in my0:
                     await message.add_reaction("<:ExciteStuff:962698922462162974>")
                     await message.add_reaction('\N{EYES}')
@@ -4798,34 +4839,34 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
-                if (jewel_sphere) in my0:
+                if (jewel_sphene) in my0:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my1:
+                if (jewel_sphene) in my1:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my2:
+                if (jewel_sphene) in my2:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my3:
+                if (jewel_sphene) in my3:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my4:
+                if (jewel_sphene) in my4:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my5:
+                if (jewel_sphene) in my5:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my6:
+                if (jewel_sphene) in my6:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my7:
+                if (jewel_sphene) in my7:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my8:
+                if (jewel_sphene) in my8:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my9:
+                if (jewel_sphene) in my9:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
             elif ('リード') in message.content:
@@ -5554,7 +5595,7 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
-            elif ('外はね') in message.content:
+            elif ('ただの外はね') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
                 my0= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\outside splash\\outside splash{}.jpg'.format(random.randint(1,32))
@@ -5958,7 +5999,7 @@ async def on_message(message):
                     await message.add_reaction('\N{EYES}')
             else:
                 send_message = "確定とかないからね"
-                myfiles=[]
+                list_img = []
                 my0= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my1= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my2= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
@@ -5969,17 +6010,60 @@ async def on_message(message):
                 my7= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my8= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my9= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-                myfiles.append(discord.File(my0))
-                myfiles.append(discord.File(my1))
-                myfiles.append(discord.File(my2))
-                myfiles.append(discord.File(my3))
-                myfiles.append(discord.File(my4))
-                myfiles.append(discord.File(my5))
-                myfiles.append(discord.File(my6))
-                myfiles.append(discord.File(my7))
-                myfiles.append(discord.File(my8))
-                myfiles.append(discord.File(my9))
-                await message.channel.send(send_message,files=myfiles)
+                img_1 = cv2.imread('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\kekka.jpg') 
+                img_2 = cv2.imread(my0) 
+                img_3 = cv2.imread(my1)
+                img_4 = cv2.imread(my2)
+                img_5 = cv2.imread(my3)
+                img_6 = cv2.imread(my4)
+                img_7 = cv2.imread(my5)
+                img_8 = cv2.imread(my6)
+                img_9 = cv2.imread(my7)
+                img_10 = cv2.imread(my8)
+                img_11 = cv2.imread(my9)
+                list_img.append(img_1) 
+                list_img.append(img_2) 
+                list_img.append(img_3) 
+                list_img.append(img_4) 
+                list_img.append(img_5) 
+                list_img.append(img_6) 
+                list_img.append(img_7) 
+                list_img.append(img_8) 
+                list_img.append(img_9) 
+                list_img.append(img_10) 
+                list_img.append(img_11) 
+                def vconcat_resize_min(im_list, interpolation=cv2.INTER_CUBIC):
+                    w_min = min(im.shape[1] for im in im_list)
+                    im_list_resize = [cv2.resize(im, (w_min, int(im.shape[0] * w_min / im.shape[1])), interpolation=interpolation)
+                      for im in im_list]
+                    return cv2.vconcat(im_list_resize)
+                im_v_resize = vconcat_resize_min([img_1, img_2])
+
+                def hconcat_resize_min(im_list, interpolation=cv2.INTER_CUBIC):
+                    h_min = min(im.shape[0] for im in im_list)
+                    im_list_resize = [cv2.resize(im, (int(im.shape[1] * h_min / im.shape[0]), h_min), interpolation=interpolation)
+                      for im in im_list]
+                    return cv2.hconcat(im_list_resize)
+                im_h_resize = hconcat_resize_min([img_1, img_2])
+
+                def concat_tile(im_list_2d):
+                    return cv2.vconcat([cv2.hconcat(im_list_h) for im_list_h in im_list_2d])
+
+                im1_s = cv2.resize(img_2, dsize=(0, 0), fx=0.5, fy=0.5)
+                im_tile = concat_tile([[im1_s, im1_s, im1_s, im1_s],
+                                       [im1_s, im1_s, im1_s, im1_s],
+                                       [im1_s, im1_s, im1_s, im1_s]])
+                im_tile_np = np.tile(im1_s, (3, 4, 1))
+
+                def concat_tile_resize(im_list_2d, interpolation=cv2.INTER_CUBIC):
+                    im_list_v = [hconcat_resize_min(im_list_h, interpolation=cv2.INTER_CUBIC) for im_list_h in im_list_2d]
+                    return vconcat_resize_min(im_list_v, interpolation=cv2.INTER_CUBIC)
+                im_tile_resize = concat_tile_resize([[img_1],
+                                     [img_2, img_3, img_4, img_5, img_6],
+                                     [img_7, img_8, img_9, img_10, img_11]])
+                cv2.imwrite('img/opencv_concat_tile_resize.jpg', im_tile_resize)
+                myfiles='img/opencv_concat_tile_resize.jpg'
+                await message.channel.send(send_message, file=discord.File(myfiles))
                 if (excite) in my0:
                     await message.add_reaction("<:ExciteStuff:962698922462162974>")
                     await message.add_reaction('\N{EYES}')
@@ -7559,34 +7643,34 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
-                if (jewel_sphere) in my0:
+                if (jewel_sphene) in my0:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my1:
+                if (jewel_sphene) in my1:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my2:
+                if (jewel_sphene) in my2:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my3:
+                if (jewel_sphene) in my3:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my4:
+                if (jewel_sphene) in my4:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my5:
+                if (jewel_sphene) in my5:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my6:
+                if (jewel_sphene) in my6:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my7:
+                if (jewel_sphene) in my7:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my8:
+                if (jewel_sphene) in my8:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
-                if (jewel_sphere) in my9:
+                if (jewel_sphene) in my9:
                     await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
             elif ('リード') in message.content:
@@ -8315,7 +8399,7 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
-            elif ('外はね') in message.content:
+            elif ('ただの外はね') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
                 my0= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\outside splash\\outside splash{}.jpg'.format(random.randint(1,32))
@@ -8719,7 +8803,7 @@ async def on_message(message):
                     await message.add_reaction('\N{EYES}')
             else:
                 send_message = "確定とかないからね"
-                myfiles=[]
+                list_img = []
                 my0= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my1= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my2= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
@@ -8730,17 +8814,60 @@ async def on_message(message):
                 my7= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my8= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
                 my9= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-                myfiles.append(discord.File(my0))
-                myfiles.append(discord.File(my1))
-                myfiles.append(discord.File(my2))
-                myfiles.append(discord.File(my3))
-                myfiles.append(discord.File(my4))
-                myfiles.append(discord.File(my5))
-                myfiles.append(discord.File(my6))
-                myfiles.append(discord.File(my7))
-                myfiles.append(discord.File(my8))
-                myfiles.append(discord.File(my9))
-                await message.channel.send(send_message,files=myfiles)
+                img_1 = cv2.imread('C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\kekka.jpg') 
+                img_2 = cv2.imread(my0) 
+                img_3 = cv2.imread(my1)
+                img_4 = cv2.imread(my2)
+                img_5 = cv2.imread(my3)
+                img_6 = cv2.imread(my4)
+                img_7 = cv2.imread(my5)
+                img_8 = cv2.imread(my6)
+                img_9 = cv2.imread(my7)
+                img_10 = cv2.imread(my8)
+                img_11 = cv2.imread(my9)
+                list_img.append(img_1) 
+                list_img.append(img_2) 
+                list_img.append(img_3) 
+                list_img.append(img_4) 
+                list_img.append(img_5) 
+                list_img.append(img_6) 
+                list_img.append(img_7) 
+                list_img.append(img_8) 
+                list_img.append(img_9) 
+                list_img.append(img_10) 
+                list_img.append(img_11) 
+                def vconcat_resize_min(im_list, interpolation=cv2.INTER_CUBIC):
+                    w_min = min(im.shape[1] for im in im_list)
+                    im_list_resize = [cv2.resize(im, (w_min, int(im.shape[0] * w_min / im.shape[1])), interpolation=interpolation)
+                      for im in im_list]
+                    return cv2.vconcat(im_list_resize)
+                im_v_resize = vconcat_resize_min([img_1, img_2])
+
+                def hconcat_resize_min(im_list, interpolation=cv2.INTER_CUBIC):
+                    h_min = min(im.shape[0] for im in im_list)
+                    im_list_resize = [cv2.resize(im, (int(im.shape[1] * h_min / im.shape[0]), h_min), interpolation=interpolation)
+                      for im in im_list]
+                    return cv2.hconcat(im_list_resize)
+                im_h_resize = hconcat_resize_min([img_1, img_2])
+
+                def concat_tile(im_list_2d):
+                    return cv2.vconcat([cv2.hconcat(im_list_h) for im_list_h in im_list_2d])
+
+                im1_s = cv2.resize(img_2, dsize=(0, 0), fx=0.5, fy=0.5)
+                im_tile = concat_tile([[im1_s, im1_s, im1_s, im1_s],
+                                       [im1_s, im1_s, im1_s, im1_s],
+                                       [im1_s, im1_s, im1_s, im1_s]])
+                im_tile_np = np.tile(im1_s, (3, 4, 1))
+
+                def concat_tile_resize(im_list_2d, interpolation=cv2.INTER_CUBIC):
+                    im_list_v = [hconcat_resize_min(im_list_h, interpolation=cv2.INTER_CUBIC) for im_list_h in im_list_2d]
+                    return vconcat_resize_min(im_list_v, interpolation=cv2.INTER_CUBIC)
+                im_tile_resize = concat_tile_resize([[img_1],
+                                     [img_2, img_3, img_4, img_5, img_6],
+                                     [img_7, img_8, img_9, img_10, img_11]])
+                cv2.imwrite('img/opencv_concat_tile_resize.jpg', im_tile_resize)
+                myfiles='img/opencv_concat_tile_resize.jpg'
+                await message.channel.send(send_message, file=discord.File(myfiles))
                 if (excite) in my0:
                     await message.add_reaction("<:ExciteStuff:962698922462162974>")
                     await message.add_reaction('\N{EYES}')
@@ -9067,71 +9194,8 @@ async def on_message(message):
             await message.add_reaction('\N{EYES}')
     if ('test') in message.content:
         send_message = "確定とかないからね"
-        list_img = []
-        my0= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my1= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my2= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my3= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my4= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my5= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my6= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my7= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my8= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        my9= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-        img_1 = cv2.imread('G:\\mobu_bot\\kekka.jpg') 
-        img_2 = cv2.imread(my0) 
-        img_3 = cv2.imread(my1)
-        img_4 = cv2.imread(my2)
-        img_5 = cv2.imread(my3)
-        img_6 = cv2.imread(my4)
-        img_7 = cv2.imread(my5)
-        img_8 = cv2.imread(my6)
-        img_9 = cv2.imread(my7)
-        img_10 = cv2.imread(my8)
-        img_11 = cv2.imread(my9)
-        list_img.append(img_1) 
-        list_img.append(img_2) 
-        list_img.append(img_3) 
-        list_img.append(img_4) 
-        list_img.append(img_5) 
-        list_img.append(img_6) 
-        list_img.append(img_7) 
-        list_img.append(img_8) 
-        list_img.append(img_9) 
-        list_img.append(img_10) 
-        list_img.append(img_11) 
-        def vconcat_resize_min(im_list, interpolation=cv2.INTER_CUBIC):
-            w_min = min(im.shape[1] for im in im_list)
-            im_list_resize = [cv2.resize(im, (w_min, int(im.shape[0] * w_min / im.shape[1])), interpolation=interpolation)
-                      for im in im_list]
-            return cv2.vconcat(im_list_resize)
-        im_v_resize = vconcat_resize_min([img_1, img_2])
-
-        def hconcat_resize_min(im_list, interpolation=cv2.INTER_CUBIC):
-            h_min = min(im.shape[0] for im in im_list)
-            im_list_resize = [cv2.resize(im, (int(im.shape[1] * h_min / im.shape[0]), h_min), interpolation=interpolation)
-                      for im in im_list]
-            return cv2.hconcat(im_list_resize)
-        im_h_resize = hconcat_resize_min([img_1, img_2])
-
-        def concat_tile(im_list_2d):
-            return cv2.vconcat([cv2.hconcat(im_list_h) for im_list_h in im_list_2d])
-
-        im1_s = cv2.resize(img_2, dsize=(0, 0), fx=0.5, fy=0.5)
-        im_tile = concat_tile([[im1_s, im1_s, im1_s, im1_s],
-                       [im1_s, im1_s, im1_s, im1_s],
-                       [im1_s, im1_s, im1_s, im1_s]])
-        im_tile_np = np.tile(im1_s, (3, 4, 1))
-
-        def concat_tile_resize(im_list_2d, interpolation=cv2.INTER_CUBIC):
-            im_list_v = [hconcat_resize_min(im_list_h, interpolation=cv2.INTER_CUBIC) for im_list_h in im_list_2d]
-            return vconcat_resize_min(im_list_v, interpolation=cv2.INTER_CUBIC)
-        im_tile_resize = concat_tile_resize([[img_1],
-                                     [img_2, img_3, img_4, img_5, img_6],
-                                     [img_7, img_8, img_9, img_10, img_11]])
-        cv2.imwrite('img/opencv_concat_tile_resize.jpg', im_tile_resize)
-        myfiles='img/opencv_concat_tile_resize.jpg'
-        await message.channel.send(send_message, file=discord.File(myfiles))
+        
+     
     if ('ランダム') in message.content:
         send_message = "ランダムで選ばれたのはこの娘！"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
