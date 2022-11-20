@@ -20,18 +20,54 @@ time = datetime.datetime.now()
 excite = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\71.jpg'
 pink_excite = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\pink\\pink8.jpg'
 long_excite = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\long left\\long left5.jpg'
+male_excite = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\male\\male38.jpg'
 
 kuma = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\348.jpg'
 white_kuma = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\white\\white17.jpg'
 long_kuma = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\long patteern\\long pattern20.jpg'
+female_kuma = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\female\\female94.jpg'
+skin_kuma = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\dark skin\\dark skin85.jpg'
 
 its = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\47.jpg'
 wheat_its = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\wheat\\wheat7.jpg'
 long_its = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\long left\\long left2.jpg'
+female_its = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\female\\female7.jpg'
 
 bridge = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\426.jpg'
 wheat_bridge = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\wheat\\wheat44.jpg'
 long_bridge = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\long inboard\\long inboard19.jpg'
+male_bridge = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\male\\male291.jpg'
+
+parfait = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\81.jpg'
+black_parfait = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\black\\black7.jpg'
+berry_short_parfait = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\berry Short\\berry Short7.jpg'
+female_parfait = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\female\\female20.jpg'
+parfait_parfait = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\parfait\\parfait1.jpg'
+
+joy = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\354.jpg'
+white_joy = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\white\\white18.jpg'
+rear_tail_joy = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\rear tail\\rear tail19.jpg'
+male_joy = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\male\\male241.jpg'
+
+svol = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\295.jpg'
+pink_svol = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\pink\\pink24.jpg'
+braid_svol = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\braid\\braid10.jpg'
+male_svol = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\male\\male197.jpg'
+duo_svol = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\duo\\duo6.jpg'
+
+cactus = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\499.jpg'
+pink_cactus = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\pink\\pink57.jpg'
+short_cactus = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\short twin tailsr//short twin tailsr33.jpg'
+female_cactus = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\female\\female142.jpg'
+mini_cactus = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\mini\\mini2.jpg'
+
+sphene = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\198.jpg'
+white_sphene = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\white\\white11.jpg'
+deco_sphene= 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\deco_sphere\\deco_sphere8.jpg'
+female_sphene = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\female\\female12.jpg'
+jewel_sphene = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\jewel\\jewel12.jpg'
+
+
 
 stuby = "<@!656384100890050570>勉強しろ"
 stuby_kyunaru = "<@!954716402995048459>勉強しろ"
@@ -747,6 +783,66 @@ async def on_message(message):
                 if (pink_excite) in my9:
                     await message.add_reaction("<:ExciteStuff:962698922462162974>")
                     await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
             elif ('ベージュ') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -849,6 +945,66 @@ async def on_message(message):
                 if (white_kuma) in my9:
                     await message.add_reaction("<:BaytalHikmah:962699363287707668>")
                     await message.add_reaction('\N{EYES}')
+                if (white_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('芦毛') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -902,6 +1058,66 @@ async def on_message(message):
                     await message.add_reaction('\N{EYES}')
                 if (white_kuma) in my9:
                     await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
             elif ('灰色') in message.content:
                 send_message = "確定とかないからね"
@@ -975,6 +1191,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (black_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
             elif ('阪急') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -1251,6 +1497,156 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (female_kuma) in my0:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my1:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my2:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my3:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my4:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my5:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my6:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my7:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my8:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my9:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my0:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my1:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my2:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my3:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my4:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my5:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my6:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my7:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my8:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my9:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('牡馬') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -1275,6 +1671,126 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (male_excite) in my0:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my1:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my2:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my3:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my4:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my5:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my6:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my7:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my8:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my9:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my0:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my1:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my2:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my3:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my4:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my5:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my6:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my7:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my8:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my9:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
             elif ('アクア') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -1371,6 +1887,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
             elif ('フリルド') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -1491,6 +2037,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (jewel_sphere) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('リード') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -1563,6 +2139,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (mini_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
             elif ('パルフェ') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -1587,6 +2193,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (parfait_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
             elif ('リズム') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -1779,6 +2415,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (berry_short_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
             elif ('三つ編み') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -1803,6 +2469,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (braid_svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
             elif ('でこ出し外はね') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -1827,6 +2523,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (deco_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('ロング内寄り') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -2115,6 +2841,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (rear_tail_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
             elif ('七三分け') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -2283,6 +3039,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (short_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
             elif ('サイドテール') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -2379,6 +3165,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (skin_kuma) in my0:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my1:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my2:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my3:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my4:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my5:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my6:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my7:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my8:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my9:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
             else:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -2522,6 +3338,156 @@ async def on_message(message):
                     await message.add_reaction('\N{EYES}')
                 if (bridge) in my9:
                     await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
     if ('１０連') in message.content:
             if ('ピンク') in message.content:
@@ -2578,6 +3544,66 @@ async def on_message(message):
                 if (pink_excite) in my9:
                     await message.add_reaction("<:ExciteStuff:962698922462162974>")
                     await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
             elif ('ベージュ') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -2680,6 +3706,66 @@ async def on_message(message):
                 if (white_kuma) in my9:
                     await message.add_reaction("<:BaytalHikmah:962699363287707668>")
                     await message.add_reaction('\N{EYES}')
+                if (white_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('芦毛') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -2733,6 +3819,66 @@ async def on_message(message):
                     await message.add_reaction('\N{EYES}')
                 if (white_kuma) in my9:
                     await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
             elif ('灰色') in message.content:
                 send_message = "確定とかないからね"
@@ -2806,6 +3952,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (black_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
             elif ('阪急') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -3082,6 +4258,156 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (female_kuma) in my0:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my1:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my2:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my3:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my4:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my5:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my6:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my7:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my8:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my9:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my0:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my1:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my2:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my3:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my4:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my5:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my6:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my7:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my8:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my9:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('牡馬') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -3106,6 +4432,126 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (male_excite) in my0:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my1:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my2:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my3:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my4:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my5:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my6:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my7:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my8:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my9:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my0:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my1:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my2:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my3:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my4:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my5:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my6:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my7:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my8:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my9:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
             elif ('アクア') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -3202,6 +4648,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
             elif ('フリルド') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -3322,6 +4798,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (jewel_sphere) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('リード') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -3394,6 +4900,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (mini_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
             elif ('パルフェ') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -3418,6 +4954,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (parfait_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
             elif ('リズム') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -3610,6 +5176,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (berry_short_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
             elif ('三つ編み') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -3634,6 +5230,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (braid_svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
             elif ('でこ出し外はね') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -3658,6 +5284,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (deco_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('ロング内寄り') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -3946,6 +5602,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (rear_tail_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
             elif ('七三分け') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -4114,6 +5800,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (short_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
             elif ('サイドテール') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -4210,6 +5926,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (skin_kuma) in my0:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my1:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my2:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my3:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my4:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my5:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my6:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my7:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my8:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my9:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
             else:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -4353,6 +6099,156 @@ async def on_message(message):
                     await message.add_reaction('\N{EYES}')
                 if (bridge) in my9:
                     await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
     if ('十連') in message.content:
             if ('ピンク') in message.content:
@@ -4409,6 +6305,66 @@ async def on_message(message):
                 if (pink_excite) in my9:
                     await message.add_reaction("<:ExciteStuff:962698922462162974>")
                     await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (pink_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
             elif ('ベージュ') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -4511,6 +6467,66 @@ async def on_message(message):
                 if (white_kuma) in my9:
                     await message.add_reaction("<:BaytalHikmah:962699363287707668>")
                     await message.add_reaction('\N{EYES}')
+                if (white_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('芦毛') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -4564,6 +6580,66 @@ async def on_message(message):
                     await message.add_reaction('\N{EYES}')
                 if (white_kuma) in my9:
                     await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (white_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
             elif ('灰色') in message.content:
                 send_message = "確定とかないからね"
@@ -4637,6 +6713,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (black_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (black_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
             elif ('阪急') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -4913,6 +7019,156 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (female_kuma) in my0:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my1:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my2:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my3:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my4:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my5:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my6:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my7:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my8:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_kuma) in my9:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my0:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my1:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my2:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my3:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my4:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my5:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my6:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my7:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my8:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_its) in my9:
+                    await message.add_reaction("<:ItsCalling:962699073318703116>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (female_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('牡馬') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -4937,6 +7193,126 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (male_excite) in my0:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my1:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my2:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my3:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my4:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my5:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my6:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my7:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my8:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_excite) in my9:
+                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my0:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my1:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my2:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my3:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my4:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my5:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my6:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my7:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my8:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_bridge) in my9:
+                    await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (male_svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
             elif ('アクア') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -5033,6 +7409,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
             elif ('フリルド') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -5153,6 +7559,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (jewel_sphere) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (jewel_sphere) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('リード') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -5225,6 +7661,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (mini_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (mini_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
             elif ('パルフェ') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -5249,6 +7715,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (parfait_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
             elif ('リズム') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -5441,6 +7937,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (berry_short_parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (berry_short_parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
             elif ('三つ編み') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -5465,6 +7991,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (braid_svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (braid_svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
             elif ('でこ出し外はね') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -5489,6 +8045,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (deco_sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (deco_sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
             elif ('ロング内寄り') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -5777,6 +8363,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (rear_tail_joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (rear_tail_joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
             elif ('七三分け') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -5945,6 +8561,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (short_cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (short_cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
             elif ('サイドテール') in message.content:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -6041,6 +8687,36 @@ async def on_message(message):
                 myfiles.append(discord.File(my8))
                 myfiles.append(discord.File(my9))
                 await message.channel.send(send_message,files=myfiles)
+                if (skin_kuma) in my0:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my1:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my2:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my3:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my4:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my5:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my6:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my7:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my8:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
+                if (skin_kuma) in my9:
+                    await message.add_reaction("<:BaytalHikmah:962699363287707668>")
+                    await message.add_reaction('\N{EYES}')
             else:
                 send_message = "確定とかないからね"
                 myfiles=[]
@@ -6184,6 +8860,156 @@ async def on_message(message):
                     await message.add_reaction('\N{EYES}')
                 if (bridge) in my9:
                     await message.add_reaction("<:BridgeComp:962699200418676786>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my0:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my1:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my2:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my3:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my4:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my5:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my6:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my7:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my8:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (parfait) in my9:
+                    await message.add_reaction("<:OishiiParfait:962699813550448672>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my0:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my1:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my2:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my3:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my4:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my5:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my6:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my7:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my8:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (joy) in my9:
+                    await message.add_reaction("<:PastimeJoy:962699777143881788>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my0:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my1:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my2:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my3:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my4:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my5:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my6:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my7:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my8:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (svol) in my9:
+                    await message.add_reaction("<:DuoSvol:962699941397037107>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my0:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my1:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my2:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my3:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my4:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my5:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my6:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my7:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my8:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (cactus) in my9:
+                    await message.add_reaction("<:MiniCactus:1012712215478009948>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my0:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my1:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my2:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my3:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my4:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my5:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my6:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my7:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my8:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
+                    await message.add_reaction('\N{EYES}')
+                if (sphene) in my9:
+                    await message.add_reaction("<:JewelSphene:974645172845576212>")
                     await message.add_reaction('\N{EYES}')
     if ('かもたん特効') in message.content:
         send_message = "確定とかないからね"
