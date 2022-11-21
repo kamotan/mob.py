@@ -9192,10 +9192,6 @@ async def on_message(message):
         if (excite) in my9:
             await message.add_reaction("<:ExciteStuff:962698922462162974>")
             await message.add_reaction('\N{EYES}')
-    if ('test') in message.content:
-        send_message = "確定とかないからね"
-        
-     
     if ('ランダム') in message.content:
         send_message = "ランダムで選ばれたのはこの娘！"
         filepath = 'C:\\Users\\kamotan\\Desktop\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
