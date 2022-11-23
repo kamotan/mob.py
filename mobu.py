@@ -132,8 +132,16 @@ async def on_message(message):
         send_message = "蘇ったぞおおおおおおおおおおおおお"
         await message.channel.send(send_message)
     if message.content.startswith('モブウマ娘名鑑'):
-        send_message = "モブウマ娘名鑑\nhttps://twitter.com/mobumamusumeika?s=20&t=osfVJsUJNPCZp37Bnmsg6Q\nhttps://mobumamusume.net/"
-        await message.channel.send(send_message)
+        guild = client.get_guild(889014331902136342)
+        member = guild.get_member(901797483414425620)
+        embed = discord.Embed(title="モブウマ娘名鑑リンクまとめ",description=""Twitterとwebサイト)
+        embed.add_field(name="Twitter",value="https://twitter.com/mobumamusumeika?s=20&t=osfVJsUJNPCZp37Bnmsg6Q",inline=False)
+        embed.add_field(name="webサイト",value="https://mobumamusume.net/",inline=False)
+        embed.set_author(name=member.display_name,url="https://mobumamusume.net/",icon_url=member.avatar_url)
+        await message.channel.send(embed)
+    if message.content.startswith('モブウマ娘総選挙'):
+        embed = discord.Embed(title="モブウマ娘総選挙サイト",url="https://example.com")
+        await message.channel.send(embed)
     if message.content.startswith('博士の家を教えて'):
         send_message = "私の家は\nCPU\n・intel(R)Core(TM)i3-2120 CPU 3.3GHz\nメモリ\n・DDR3 8GB\nHDD\n・500GB\nGPU\n・なし\n最近外装(ケース)を変えた。\nもっと仕事がしやすくて立派な家に住みたいです。"
         await message.channel.send(send_message)
@@ -8867,10 +8875,17 @@ async def on_message(message):
                                      [img_7, img_8, img_9, img_10, img_11]])
                 cv2.imwrite('img/opencv_concat_tile_resize.jpg', im_tile_resize)
                 myfiles='img/opencv_concat_tile_resize.jpg'
-                await message.channel.send(send_message, file=discord.File(myfiles))
-                if (excite) in my0:
-                    await message.add_reaction("<:ExciteStuff:962698922462162974>")
-                    await message.add_reaction('\N{EYES}')
+                if ('test') in message.content:
+                    embed = discord.Embed(title="確定とかないからね") # まずは普通にEmbedを定義
+                    fname="upload.jpg " # アップロードするときのファイル名 自由に決めて良いですが、拡張子を忘れないように
+                    file = discord.File(fp="img/opencv_concat_tile_resize.jpg",filename=fname,spoiler=False) # ローカル画像からFileオブジェクトを作成
+                    embed.set_image(url=f"attachment://{fname}") # embedに画像を埋め込むときのURLはattachment://ファイル名
+                    await channel.send(file=file, embed=embed) # ファイルとembedを両方添えて送信する
+                else:
+                    await message.channel.send(send_message, file=discord.File(myfiles))
+                    if (excite) in my0:
+                        await message.add_reaction("<:ExciteStuff:962698922462162974>")
+                        await message.add_reaction('\N{EYES}')
                 if (excite) in my1:
                     await message.add_reaction("<:ExciteStuff:962698922462162974>")
                     await message.add_reaction('\N{EYES}')
