@@ -134,7 +134,7 @@ async def on_message(message):
     if message.content.startswith('モブウマ娘名鑑'):
         guild = client.get_guild(889014331902136342)
         member = guild.get_member(901797483414425620)
-        embed = discord.Embed(title="モブウマ娘名鑑リンクまとめ",description=""Twitterとwebサイト)
+        embed = discord.Embed(title="モブウマ娘名鑑リンクまとめ",description="Twitterとwebサイト")
         embed.add_field(name="Twitter",value="https://twitter.com/mobumamusumeika?s=20&t=osfVJsUJNPCZp37Bnmsg6Q",inline=False)
         embed.add_field(name="webサイト",value="https://mobumamusume.net/",inline=False)
         embed.set_author(name=member.display_name,url="https://mobumamusume.net/",icon_url=member.avatar_url)
@@ -9246,5 +9246,7 @@ client.run(TOKEN)
 # https://qiita.com/hisuie08/items/5b63924156080694fc81
 # https://qiita.com/sevenc-nanashi/items/2eec14c7f1cbe3d734a9
 # https://qiita.com/Poteto143/items/bbc61d3adf9b6b72f75f
-# https://note.nkmk.me/python-opencv-hconcat-vconcat-np-tile/
-# https://camp.trainocate.co.jp/magazine/python-opencv/
+
+
+# discord.errors.HTTPException: 400 Bad Request(error code: 50035): Invalid Form Body
+# In emoji_id: Value "○○" is not snowflake.
