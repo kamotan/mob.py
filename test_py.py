@@ -16,43 +16,7 @@ TOKEN = 'M TA0Mjc2MDI1MjAyNzgzNDQxOA.G4CgvH.DRZqaeSU0WHJ_GHoNaJ5kFfPbLqgLQNh-axm
 CHANNEL_ID = 1042758547089395753
 client = discord.Client()
 time = datetime.datetime.now()
-list_img = [] 
- 
-my0= 'G:\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-my1= 'G:\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-my2= 'G:\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-my3= 'G:\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-my4= 'G:\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-my5= 'G:\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-my6= 'G:\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-my7= 'G:\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-my8= 'G:\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-my9= 'G:\\mobu_bot\\img\\{}.jpg'.format(random.randint(1,613))
-
-img_1 = cv2.imread('G:\\mobu_bot\\kekka.jpg') 
-img_2 = cv2.imread(my0) 
-img_3 = cv2.imread(my1)
-img_4 = cv2.imread(my2)
-img_5 = cv2.imread(my3)
-img_6 = cv2.imread(my4)
-img_7 = cv2.imread(my5)
-img_8 = cv2.imread(my6)
-img_9 = cv2.imread(my7)
-img_10 = cv2.imread(my8)
-img_11 = cv2.imread(my9)
- 
-# 読み込んだ画像をリストに追加 
-list_img.append(img_1) 
-list_img.append(img_2) 
-list_img.append(img_3) 
-list_img.append(img_4) 
-list_img.append(img_5) 
-list_img.append(img_6) 
-list_img.append(img_7) 
-list_img.append(img_8) 
-list_img.append(img_9) 
-list_img.append(img_10) 
-list_img.append(img_11) 
+s = '〜〜〜'
 
 @client.event
 async def on_ready():
@@ -61,47 +25,100 @@ async def on_ready():
     print(client.get_channel)
 @client.event
 async def on_message(message):
-    if ('１０連') in message.content:
-        print("0")
-        send_message = "ランダムで選ばれたのはこの娘！"
-        def vconcat_resize_min(im_list, interpolation=cv2.INTER_CUBIC):
-            w_min = min(im.shape[1] for im in im_list)
-            im_list_resize = [cv2.resize(im, (w_min, int(im.shape[0] * w_min / im.shape[1])), interpolation=interpolation)
-                      for im in im_list]
-            return cv2.vconcat(im_list_resize)
-        im_v_resize = vconcat_resize_min([img_1, img_2])
-
-        def hconcat_resize_min(im_list, interpolation=cv2.INTER_CUBIC):
-            h_min = min(im.shape[0] for im in im_list)
-            im_list_resize = [cv2.resize(im, (int(im.shape[1] * h_min / im.shape[0]), h_min), interpolation=interpolation)
-                      for im in im_list]
-            return cv2.hconcat(im_list_resize)
-        im_h_resize = hconcat_resize_min([img_1, img_2])
-
-        def concat_tile(im_list_2d):
-            return cv2.vconcat([cv2.hconcat(im_list_h) for im_list_h in im_list_2d])
-
-        im1_s = cv2.resize(img_2, dsize=(0, 0), fx=0.5, fy=0.5)
-        im_tile = concat_tile([[im1_s, im1_s, im1_s, im1_s],
-                       [im1_s, im1_s, im1_s, im1_s],
-                       [im1_s, im1_s, im1_s, im1_s]])
-        im_tile_np = np.tile(im1_s, (3, 4, 1))
-
-        def concat_tile_resize(im_list_2d, interpolation=cv2.INTER_CUBIC):
-            im_list_v = [hconcat_resize_min(im_list_h, interpolation=cv2.INTER_CUBIC) for im_list_h in im_list_2d]
-            return vconcat_resize_min(im_list_v, interpolation=cv2.INTER_CUBIC)
-        im_tile_resize = concat_tile_resize([[img_1],
-                                     [img_2, img_3, img_4, img_5, img_6],
-                                     [img_7, img_8, img_9, img_10, img_11]])
-        cv2.imwrite('img/opencv_concat_tile_resize.jpg', im_tile_resize)
-        myfiles='img/opencv_concat_tile_resize.jpg'
-        await message.channel.send(send_message, file=discord.File(myfiles))
-
     if message.author.bot:
         return
-
+   
+   #DM
     if message.channel.id != CHANNEL_ID:
-        return
+        if ('！BOT呼び出し') in message.content:
+           channel = message.channel
+           await channel.send("こんにちは！育成しますか？ストーリーを作りますか？\n育成/ストーリー作成")
+           def check(m):
+            # メッセージが `おはよう` かつ メッセージを送信したチャンネルが
+            # コマンドを打ったチャンネルという条件
+            return m.content == '育成' or m.content == 'ストーリー作成' and m.channel == channel
+           try:
+              # wait_forを用いて、イベントが発火し指定した条件を満たすまで待機する
+              msg = await client.wait_for('message', check=check, timeout=30)
+              # wait_forの1つ目のパラメータは、イベント名の on_がないもの
+              # 2つ目は、待っているものに該当するかを確認する関数 (任意)
+              # 3つ目は、タイムアウトして asyncio.TimeoutError が発生するまでの秒数
+            
+          # asyncio.TimeoutError が発生したらここに飛ぶ
+          except asyncio.TimeoutError:
+              await channel.send('タイムアウトしました')
+          else:
+             if ('育成') in message.content:
+           
+             if ('ストーリー作成') in message.content:
+                await channel.send('タイトルを入力してください')
+                def check(m):
+            
+                return m.channel == channel
+                try:
+                   msg = await client.wait_for('message', check=check, timeout=30)
+                except asyncio.TimeoutError:
+                   await channel.send('タイムアウトしました')
+                else:
+                   #タイトルをtxtに代入
+                   title = message
+                   os.mkdir(title)
+                   path_1 = '{}/title.txt'.format(title)
+                   with open(path_1, mode='w') as f:
+                        f.write(s)
+                   with open(path_1, mode='a') as f:
+                        f.write('\n')
+                        f.write(text)
+                        f.write('〜〜〜')
+                 
+                   await channel.send('育成ストーリー紹介文を入力してください')
+                   def check(m):
+            
+                   return m.channel == channel
+                   try:
+                      msg = await client.wait_for('message', check=check, timeout=30)
+                   except asyncio.TimeoutError:
+                      await channel.send('タイムアウトしました')
+                   else:
+                      #txtに代入
+                      Introduction = message
+                      os.mkdir(Introduction)
+                      path_2 = '{}/Introduction.txt'.format(title)
+                      with open(path_2, mode='w') as f:
+                           f.write(s)
+                      with open(path_2, mode='a') as f:
+                           f.write('\n')
+                           f.write(Introduction)
+                           f.write('〜〜〜')
+                 
+                      await channel.send('冒頭イベントを入力してください')
+                      def check(m):
+            
+                      return m.channel == channel
+                      try:
+                        msg = await client.wait_for('message', check=check, timeout=30)
+                      except asyncio.TimeoutError:
+                        await channel.send('タイムアウトしました')
+                      else:
+                        #txtに代入
+                        opening = message
+                        os.mkdir(opening)
+                        path_3 = '{}/opening.txt'.format(title)
+                        with open(path_3, mode='w') as f:
+                           f.write(s)
+                        with open(path_3, mode='a') as f:
+                           f.write('\n')
+                           f.write(opening)
+                           f.write('〜〜〜')
+                 
+                        await channel.send('冒頭イベントを入力してください')
+                  
+     
+   #サーバー  
+    if ('１０連') in message.content:
+
+
+    
 
     print("1")
     
