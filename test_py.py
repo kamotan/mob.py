@@ -89,19 +89,27 @@ async def on_message(message):
    　　　　　　　　　　　　　　　　　　　　　　　              else:
                                opening = message
                                await channel.send("次のイベントまで何ターン空きを作りますか。\nターン数を半角で打ち込んでください。\nもうこれで終わりの場合は「やめる」と入力してください。\n▼")
-                               if ('やめる') in message.content:
-                                  await channel.send(f'Hello {msg.author}!')
-                               else:   
-                                  turn1 = message
-                                  await channel.send("次のイベントは通常ですか？レースですか？\n通常/レース\n▼")
-                                  def check(a):
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　def check(a):
+       　　　　　　　　　　　　　　　　　　　　　　             　　　　return a.channel == ctx.channel and a.author.id != BotID
+   　　　　　　　　　　　　　　　　　　　　　　 　             　　　　　　try:
+       　　　　　　　　　　　　　　　　　　　　　　　             　　　a = await bot.wait_for("message", check=check, timeout=120)
+   　　　　　　　　　　　　　　　　　　　　　　　              　　　　　　except asyncio.TimeoutError:
+       　　　　　　　　　　　　　　　　　　　　　　　             　　　await ctx.message.channel.send(f'時間切れです')
+       　　　　　　　　　　　　　　　　　　　　　　　             　　　sys.exit()
+   　　　　　　　　　　　　　　　　　　　　　　　              　　　　　　else:
+                                 if ('やめる') in message.content:
+                                 　　　await channel.send(f'Hello {msg.author}!')
+                               　　　　else:   
+                                  　turn1 = message
+                                  　await channel.send("次のイベントは通常ですか？レースですか？\n通常/レース\n▼")
+                                  　def check(a):
        　　　　　　　　　　　　　　　　　　　　　　                   return a.channel == ctx.channel and a.author.id != BotID
-   　　　　　　　　　　　　　　　　　　　　　　 　                   try:
+   　　　　　　　　　　　　　　　　　　　　　　 　                   　try:
        　　　　　　　　　　　　　　　　　　　　　　　                   a = await bot.wait_for("message", check=check, timeout=120)
-   　　　　　　　　　　　　　　　　　　　　　　　                    except asyncio.TimeoutError:
+   　　　　　　　　　　　　　　　　　　　　　　　                    　except asyncio.TimeoutError:
        　　　　　　　　　　　　　　　　　　　　　　　                   await ctx.message.channel.send(f'時間切れです')
        　　　　　　　　　　　　　　　　　　　　　　　                   sys.exit()
-   　　　　　　　　　　　　　　　　　　　　　　　                    else:
+   　　　　　　　　　　　　　　　　　　　　　　　                    　else:
                                      if ('通常') in message.content:
                                         normal = message
                                         await channel.send("イベント内容を入力してください。\nもう入力しない場合は「やめる」と入力してください。\n▼")
