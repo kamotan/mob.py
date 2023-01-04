@@ -14,7 +14,7 @@ import csv
 import pprint
 import os
 
-TOKEN = 'MTA0Mjc2MDI1MjAyNzgzNDQxOA.G4CgvH.DRZqaeSU0WHJ_GHoNaJ5kFfPbLqgLQNh-axmqA'
+TOKEN = 'M TA0Mjc2MDI1MjAyNzgzNDQxOA.GYhCip.hPQQzGkB9ZRhD4YVC3xTTYkeUKpzWvrF0ngupU'
 CHANNEL_ID = 1042758547089395753
 client = discord.Client()
 time = datetime.datetime.now()
