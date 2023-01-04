@@ -36,67 +36,90 @@ async def on_message(message):
             channel = message.channel
             await channel.send("こんにちは！育成しますか？ストーリーを作りますか？\n育成/ストーリー作成\n▼")
             def check(a):
-               return a.content == '育成' or a.content == 'ストーリー作成' and a.channel == channel
-            msg = await client.wait_for('message', check=check,timeout=120)
-            if ('育成') in message.content:
-               await channel.send(f'Hello {msg.author}!')
-               with open('a.csv') as f:
-                  reader = csv.reader(f)
-                  l = [row for row in reader]
+       　　　　　　　　　　　　　　　　　　　　　　　return a.channel == ctx.channel and a.author.id != BotID
+   　　　　　　　　　　　　　　　　　　　　　　 　try:
+       　　　　　　　　　　　　　　　　　　　　　　　a = await bot.wait_for("message", check=check, timeout=120)
+   　　　　　　　　　　　　　　　　　　　　　　　 except asyncio.TimeoutError:
+       　　　　　　　　　　　　　　　　　　　　　　　await ctx.message.channel.send(f'時間切れです')
+       　　　　　　　　　　　　　　　　　　　　　　　sys.exit()
+   　　　　　　　　　　　　　　　　　　　　　　　 else:
+                  if ('育成') in message.content:
+                      await channel.send(f'Hello {msg.author}!')
+                      with open('a.csv') as f:
+                          reader = csv.reader(f)
+                          l = [row for row in reader]
                   
-               with open('a.csv', 'a') as f:
-                  writer = csv.writer(f)
-                  writer.writerow([message])
+                      with open('a.csv', 'a') as f:
+                          writer = csv.writer(f)
+                          writer.writerow([message])
                   # print(l[1])
                   # ['21', '22', '23', '24']
                   # print(l[1][1])
                   # 22
 
-            elif ('ストーリー作成') in message.content:
-               await channel.send('タイトルを入力してください\n▼') 
-               def check(a):
-                  return a.channel == channel
-               msg = await client.wait_for('message', check=check,timeout=120)
-               title = message
-               await channel.send("育成ストーリー紹介文を入力してください\n▼")
-               def check(a):
-                  return a.channel == channel
-               msg = await client.wait_for('message', check=check,timeout=120)
-               introduction = message
-               await channel.send("冒頭イベントを入力してください\n▼")
-               def check(a):
-                  return a.channel == channel
-               msg = await client.wait_for('message', check=check,timeout=120)
-               opening = message
-               
-               await channel.send("次のイベントまで何ターン空きを作りますか。\nターン数を半角で打ち込んでください。\nもうこれで終わりの場合は「やめる」と入力してください。\n▼")
-               def check(a):
-                  return a.channel == channel
-               msg = await client.wait_for('message', check=check,timeout=120)
-               if ('やめる') in message.content:
-                  await channel.send(f'Hello {msg.author}!')
-               else:   
-                  turn1 = message
-                  await channel.send("次のイベントは通常ですか？レースですか？\n通常/レース\n▼")
-                  def check(a):
-                     return a.channel == channel
-                  msg = await client.wait_for('message', check=check,timeout=120)
-                  if ('通常') in message.content:
-                     normal = message
-                     await channel.send("イベント内容を入力してください。\nもう入力しない場合は「やめる」と入力してください。\n▼")
-                     def check(a):
-                        return a.channel == channel
-                     msg = await client.wait_for('message', check=check,timeout=120)
-                     if ('やめる') in message.content:
-                        await channel.send(f'Hello {msg.author}!')
-                     else:
-                        normal = message
-                        await channel.send("イベント内容を入力してください。\nもう入力しない場合は「やめる」と入力してください。\n▼") 
-                        await channel.send(f'Hello {msg.author}!')
-
-                  elif ('レース') in message.content:
-                     race = message
-                     await channel.send(f'Hello {msg.author}!')
+                  elif ('ストーリー作成') in message.content:
+                      await channel.send('タイトルを入力してください\n▼') 
+                      def check(a):
+       　　　　　　　　　　　　　　　　　　　　　　　       return a.channel == ctx.channel and a.author.id != BotID
+   　　　　　　　　　　　　　　　　　　　　　　 　       try:
+       　　　　　　　　　　　　　　　　　　　　　　　       a = await bot.wait_for("message", check=check, timeout=120)
+   　　　　　　　　　　　　　　　　　　　　　　　        except asyncio.TimeoutError:
+       　　　　　　　　　　　　　　　　　　　　　　　       await ctx.message.channel.send(f'時間切れです')
+       　　　　　　　　　　　　　　　　　　　　　　　       sys.exit()
+   　　　　　　　　　　　　　　　　　　　　　　　        else:
+                         title = message
+                         await channel.send("育成ストーリー紹介文を入力してください\n▼")
+                         def check(a):
+       　　　　　　　　　　　　　　　　　　　　　　          return a.channel == ctx.channel and a.author.id != BotID
+   　　　　　　　　　　　　　　　　　　　　　　 　          try:
+       　　　　　　　　　　　　　　　　　　　　　　　          a = await bot.wait_for("message", check=check, timeout=120)
+   　　　　　　　　　　　　　　　　　　　　　　　           except asyncio.TimeoutError:
+       　　　　　　　　　　　　　　　　　　　　　　　          await ctx.message.channel.send(f'時間切れです')
+       　　　　　　　　　　　　　　　　　　　　　　　          sys.exit()
+   　　　　　　　　　　　　　　　　　　　　　　　           else:
+               　　　　　　　          introduction = message
+                            await channel.send("冒頭イベントを入力してください\n▼")
+                            def check(a):
+       　　　　　　　　　　　　　　　　　　　　　　             return a.channel == ctx.channel and a.author.id != BotID
+   　　　　　　　　　　　　　　　　　　　　　　 　             try:
+       　　　　　　　　　　　　　　　　　　　　　　　             a = await bot.wait_for("message", check=check, timeout=120)
+   　　　　　　　　　　　　　　　　　　　　　　　              except asyncio.TimeoutError:
+       　　　　　　　　　　　　　　　　　　　　　　　             await ctx.message.channel.send(f'時間切れです')
+       　　　　　　　　　　　　　　　　　　　　　　　             sys.exit()
+   　　　　　　　　　　　　　　　　　　　　　　　              else:
+                               opening = message
+                               await channel.send("次のイベントまで何ターン空きを作りますか。\nターン数を半角で打ち込んでください。\nもうこれで終わりの場合は「やめる」と入力してください。\n▼")
+                               if ('やめる') in message.content:
+                                  await channel.send(f'Hello {msg.author}!')
+                               else:   
+                                  turn1 = message
+                                  await channel.send("次のイベントは通常ですか？レースですか？\n通常/レース\n▼")
+                                  def check(a):
+       　　　　　　　　　　　　　　　　　　　　　　                   return a.channel == ctx.channel and a.author.id != BotID
+   　　　　　　　　　　　　　　　　　　　　　　 　                   try:
+       　　　　　　　　　　　　　　　　　　　　　　　                   a = await bot.wait_for("message", check=check, timeout=120)
+   　　　　　　　　　　　　　　　　　　　　　　　                    except asyncio.TimeoutError:
+       　　　　　　　　　　　　　　　　　　　　　　　                   await ctx.message.channel.send(f'時間切れです')
+       　　　　　　　　　　　　　　　　　　　　　　　                   sys.exit()
+   　　　　　　　　　　　　　　　　　　　　　　　                    else:
+                                     if ('通常') in message.content:
+                                        normal = message
+                                        await channel.send("イベント内容を入力してください。\nもう入力しない場合は「やめる」と入力してください。\n▼")
+                                        def check(a):
+       　　　　　　　　　　　　　　　　　　　　　　                         return a.channel == ctx.channel and a.author.id != BotID
+   　　　　　　　　　　　　　　　　　　　　　　 　                         try:
+       　　　　　　　　　　　　　　　　　　　　　　　                         a = await bot.wait_for("message", check=check, timeout=120)
+   　　　　　　　　　　　　　　　　　　　　　　　                          except asyncio.TimeoutError:
+       　　　　　　　　　　　　　　　　　　　　　　　                         await ctx.message.channel.send(f'時間切れです')
+       　　　　　　　　　　　　　　　　　　　　　　　                         sys.exit()
+   　　　　　　　　　　　　　　　　　　　　　　　                          else:
+                                           if ('やめる') in message.content:
+                                              await channel.send(f'Hello {msg.author}!')
+                                           else:
+                                              await channel.send(f'Hello {msg.author}!')
+                                     elif ('レース') in message.content:
+                                        race = message
+                                        await channel.send(f'Hello {msg.author}!')
                      
                   
               
