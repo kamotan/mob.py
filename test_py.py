@@ -58,6 +58,7 @@ async def on_message(message):
                   # 22
 
                 elif ('ストーリー作成') in message.content:
+                  
                     await channel.send('タイトルを入力してください\n▼') 
                     def check(a):
                         return a.channel == ctx.channel and a.author.id != BotID
@@ -85,30 +86,44 @@ async def on_message(message):
                                 await ctx.message.channel.send(f'時間切れです')
                             else:
                                 opening = message
-                                await channel.send("次のイベントまで何ターン空きを作りますか。\nターン数を半角で打ち込んでください。\nもうこれで終わりの場合は「やめる」と入力してください。\n▼")
-                                def check(a):
-                                    return a.channel == ctx.channel and a.author.id != BotID
-                                try:
-                                    a = await bot.wait_for("message", check=check, timeout=120)
-                                except asyncio.TimeoutError:
-                                    await ctx.message.channel.send(f'時間切れです')
-                                else:
-                                    if message.content.startswith('やめる'):
-                                        await channel.send(f'Hello {msg.author}!')
-                                    else:   
-                                        turn1 = message
-                                        await channel.send("次のイベントは通常ですか？レースですか？\n通常/レース\n▼")
-                                        def check(a):
-                                            return a.channel == ctx.channel and a.author.id != BotID
-                                        try:
-                                            a = await bot.wait_for("message", check=check, timeout=120)
-                                        except asyncio.TimeoutError:
-                                            await ctx.message.channel.send(f'時間切れです')
-                                        else:
-                                            if ('通常') in message.content:
+                                decidingtheturn()
+                                   print(decidingtheturn(1)) 
+                                type()
+                                 
+                                def decidingtheturn(turn0,turn1,turn2,turn3,turn4,turn5,turn6,turn7,turn8,turn9):
+                                        await channel.send("何回練習ターンを作りますか。（10ターンまで入力してください）\nターン数を半角で打ち込んでください。\n現在のターン数設定は0です。\nこれ以上ターンを増やしたくない場合はnと入力してください\n▼")
+                                           def check(a):
+                                              return a.channel == ctx.channel and a.author.id != BotID
+                                           try:
+                                              a = await bot.wait_for("message", check=check, timeout=120)
+                                           except asyncio.TimeoutError:
+                                              await ctx.message.channel.send(f'時間切れです')
+                                           else:
+                                              turn1 = message
+                                              await channel.send("何回練習ターンを作りますか。（10ターンまで入力してください）\nターン数を半角で打ち込んでください。\n現在のターン数設定は1です。\nこれ以上ターンを増やしたくない場合はnと入力してください\n▼")
+                                              def check(a):
+                                                 return a.channel == ctx.channel and a.author.id != BotID
+                                              try:
+                                                 a = await bot.wait_for("message", check=check, timeout=120)
+                                              except asyncio.TimeoutError:
+                                                 await ctx.message.channel.send(f'時間切れです')
+                                              else:
+                                                 turn2 = message
+                                                 await channel.send("何回練習ターンを作りますか。（10ターンまで入力してください）\nターン数を半角で打ち込んでください。\n現在のターン数設定は2です。\nこれ以上ターンを増やしたくない場合はnと入力してください\n▼")
+                                              
+                                def type(normal0,normal1,normal2,normal3,normal4,normal5,normal6,normal7,normal8,normal9,race0,race1,race2,race3,race4,race5,race6,race7,race8,race9,race10,race11,race12,race13,race14,race15,race16,race17,race18,race19)
+                                    await channel.send("次のイベントは通常ですか？レースですか？\n通常/レース\n▼")
+                                    def check(a):
+                                       return a.channel == ctx.channel and a.author.id != BotID
+                                    try:
+                                       a = await bot.wait_for("message", check=check, timeout=120)
+                                    except asyncio.TimeoutError:
+                                       await ctx.message.channel.send(f'時間切れです')
+                                    else:
+                                       if ('通常') in message.content:
+                                          normal = message
                                                 
-                                                normal = message
-                                                await channel.send("イベント内容を入力してください。\nもう入力しない場合は「やめる」と入力してください。\n▼")
+                                                    await channel.send("イベント内容を入力してください。\nもう入力しない場合は「やめる」と入力してください。\n▼")
                                                 def check(a):
                                                     return a.channel == ctx.channel and a.author.id != BotID
                                                 try:
@@ -209,3 +224,5 @@ client.run(TOKEN)
 # python test_py.py　または py test_py.py で動く  
 # https://note.com/shiftkey/n/nca16e5b8580c
 # https://note.nkmk.me/python-json-load-dump/
+# https://www.javadrive.jp/python/userfunc/index1.html
+# https://pg-chain.com/python-exit-return
