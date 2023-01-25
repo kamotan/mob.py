@@ -1,0 +1,162 @@
+[
+    {
+        "overview":{
+            "title": "エキサイトスタッフ",
+            "introduction": "あああああ\nああああああ"
+        }
+    },
+    {
+        "opening": "ああああ"
+    },
+    {
+        "first_event_overview":{
+            "until_the_next_event": "9",
+            "event": "Normal",
+            "first_event":{
+                "content": "あああああ\nああああ",
+                "choice":{
+                    "first":"1",
+                    "first_event_message":{
+                        "content": "あああああ\nああああ",
+                        "event_effect":{
+                            "effect":{
+                                "speed":"10",
+                                "stamina":"10",
+                                "power":"10",
+                                "guts":"10",
+                                "intellect":"10",
+                                "hp":"-10"
+                            }
+                        }
+                    },
+                    "second":"2",
+                    "second_event_message":{
+                        "content": "あああああ\nああああ",
+                        "event_effect":{
+                            "effect":{
+                                "speed":"10",
+                                "stamina":"10",
+                                "power":"10",
+                                "guts":"10",
+                                "intellect":"10",
+                                "hp":"-10"
+                            }
+                        }
+                    },
+                    "third":"3",
+                    "third_event_message":{
+                        "content": "あああああ\nああああ",
+                        "event_effect":{
+                            "effect":{
+                                "speed":"10",
+                                "stamina":"10",
+                                "power":"10",
+                                "guts":"10",
+                                "intellect":"10",
+                                "hp":"-10"
+                            }
+                        }
+                    },
+                    "fourth":"4",
+                    "fourth_event_message":{
+                        "content": "あああああ\nああああ",
+                        "event_effect":{
+                            "effect":{
+                                "speed":"10",
+                                "stamina":"10",
+                                "power":"10",
+                                "guts":"10",
+                                "intellect":"10",
+                                "hp":"-10"
+                            }
+                        }
+                    },
+                    "fifth":"5",
+                    "fifth_event_message":{
+                        "content": "あああああ\nああああ",
+                        "event_effect":{
+                            "effect":{
+                                "speed":"10",
+                                "stamina":"10",
+                                "power":"10",
+                                "guts":"10",
+                                "intellect":"10",
+                                "hp":"-10"
+                            }
+                        }
+                    },
+                    "sixth":"6",
+                    "sixth_event_message":{
+                        "content": "あああああ\nああああ",
+                        "event_effect":{
+                            "effect":{
+                                "speed":"10",
+                                "stamina":"10",
+                                "power":"10",
+                                "guts":"10",
+                                "intellect":"10",
+                                "hp":"-10"
+                            }
+                        }
+                    },
+                    "end":"false",
+                    "event_effect":{
+                        "effect":{
+                            "speed":"10",
+                            "stamina":"10",
+                            "power":"10",
+                            "guts":"10",
+                            "intellect":"10",
+                            "hp":"-10"
+                        }
+                    }
+                }
+            }
+            
+        }
+        
+    },
+    {
+        "second_event_overview":{
+            "until_the_next_event": "9",
+            "event": "race",
+            "race_overview":{
+                "race_title":"日本ダービー",
+                "race_type":"芝",
+                "race_distance":"2400",
+                "target_rank":"3"
+            },
+            "victory":{
+                "content": "あああああ\nああああ",
+                "event_effect":{
+                    "effect":{
+                        "speed":"10",
+                        "stamina":"10",
+                        "power":"10",
+                        "guts":"10",
+                        "intellect":"10",
+                        "hp":"-10"
+                    }
+                }
+            },
+            "lose":{
+                "content": "あああああ\nああああ",
+                "event_effect":{
+                    "effect":{
+                        "speed":"10",
+                        "stamina":"10",
+                        "power":"10",
+                        "guts":"10",
+                        "intellect":"10",
+                        "hp":"-10"
+                    }
+                }
+            }
+            
+
+        }
+    },
+    {
+        "end_content": "ああ\nあ"
+    }
+]
