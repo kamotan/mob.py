@@ -51,11 +51,11 @@ async def on_message(message):
                   await channel.send("「{}」のストーリーを始めます▼".format(title))
                   with open('.json') as f:
                      bb = json.load(f)
-                  pprint.pprint(df, width=40)
+                  pprint.pprint(bb, width=40)
                   opening = bb["overview"]["title"]
                   opening = bb["opening"]
                   await channel.send(opening)
-                  until_the_next_event = df["first_event_overview"]["until_the_next_event"]
+                  until_the_next_event = bb["first_event_overview"]["until_the_next_event"]
                   await channel.send('次のイベントまで{}ターンです。'.format(title))
                   with open('status.json') as f:
                      cc = json.load(f)
@@ -70,7 +70,7 @@ async def on_message(message):
                   '5.賢さ\n' +
                   '6.おやすみ\n' )
                   for add_emoji in emoji_list:
-                     await msg.add_reaction(add_emoji)
+                     await message.add_reaction(add_emoji)
                   def check(reaction, user):
                      return user == message.author and str(reaction.emoji) in emoji_list
                   reaction, user = await client.wait_for('reaction_add', check=check)
@@ -113,7 +113,7 @@ async def on_message(message):
                      
                   
                if ('2') in message.content or ('２') in message.content:
-                  rist = d["2"]
+                  rist = dd["2"]
               
                   
 

@@ -8880,7 +8880,7 @@ async def on_message(message):
                     fname="upload.jpg " # アップロードするときのファイル名 自由に決めて良いですが、拡張子を忘れないように
                     file = discord.File(fp="img/opencv_concat_tile_resize.jpg",filename=fname,spoiler=False) # ローカル画像からFileオブジェクトを作成
                     embed.set_image(url=f"attachment://{fname}") # embedに画像を埋め込むときのURLはattachment://ファイル名
-                    await channel.send(file=file, embed=embed) # ファイルとembedを両方添えて送信する
+                    await message.channel.send(file=file, embed=embed) # ファイルとembedを両方添えて送信する
                 else:
                     await message.channel.send(send_message, file=discord.File(myfiles))
                     if (excite) in my0:
