@@ -149,3 +149,9 @@ client.run(TOKEN)
 # https://www.javadrive.jp/python/userfunc/index1.html
 # https://pg-chain.com/python-exit-return
 # https://qiita.com/tamagoKG/items/13abea29605f9efdf43e
+# https://gendai.media/articles/-/74454?imp=0
+# https://baba-s.hatenablog.com/entry/2019/05/07/091000
+# https://pypi.org/project/python-minifier/
+# https://zenn.dev/tokiwa/articles/d297871529ce4c
+# https://qiita.com/rache/items/7ebde61df17f193d79de
+# https://kino-code.com/bar-chart-race/
