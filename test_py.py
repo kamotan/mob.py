@@ -155,3 +155,7 @@ client.run(TOKEN)
 # https://zenn.dev/tokiwa/articles/d297871529ce4c
 # https://qiita.com/rache/items/7ebde61df17f193d79de
 # https://kino-code.com/bar-chart-race/
+
+
+# https://note.com/sushitenko/n/n7649bf0ed1c8
+# https://note.com/mss_discord/n/nee59bc8923a7
